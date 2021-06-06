@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/27368554/120908846-4ff81b80-c677-11eb-9f00-587bace6d3fc.png)
+
 # Fluent-Search
 Official repository for Fluent Search, use to report issues or ask for a new feature
 
