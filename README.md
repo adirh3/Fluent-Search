@@ -1,15 +1,15 @@
 ![image](https://user-images.githubusercontent.com/27368554/120908846-4ff81b80-c677-11eb-9f00-587bace6d3fc.png)
 
 # Fluent Search
-Official repository for Fluent Search, use to report issues or ask for a new feature
+Official Repository for reporting bugs or asking for new features related to Fluent Search.
 
 # Issues
 
-When reporting an issue please state your Fluent Search version and try to include as much information as possible.
+When reporting an issue, please state your Fluent Search and Windows version. Try to include as much information as possible.
 
-# Feature requests
+# Feature Requests
 
-When requesting a feature please include a scenario that in which this feature will be useful for you.
+When requesting a feature, please include a scenario that in which this feature will be useful for you.
 
 # Downloads
 
