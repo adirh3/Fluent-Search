@@ -34,13 +34,13 @@ When reporting an issue, please state your Fluent Search and Windows version. Tr
 When requesting a feature, please include a scenario that in which this feature will be useful for you.
 
 ## Downloads
-#### Stable
+#### Stable version
 
-The Stable version is available on the [website](https://fluentsearch.net).
+The Stable version is available on the Official Fluent Search website which can be found [here](https://fluentsearch.net). Click on `Download` and choose the preferred Installer file to get the Fluent Search.
 
-#### Alpha
-Alpha versions are updated daily, and most likely to contains bugs. You can update to Alpha version by changeing Settings -> System -> Release feed -> Alpha.
+#### Nightly version
+Nightly versions are updated daily, and most likely to contains bugs. You can update to Nightly version by changeing Settings -> System -> Release feed -> Nightly.
 
-To download Alpha versions without updating from Stable:
+To download Nightly versions without updating from Stable:
 | [Windows Installer](https://install.appcenter.ms/users/adirh3-gmail.com/apps/fluent-search-alpha/distribution_groups/exe) | [Windows APPX](https://install.appcenter.ms/users/adirh3-gmail.com/apps/fluent-search-alpha/distribution_groups/appx) | [Portable](https://install.appcenter.ms/users/adirh3-gmail.com/apps/fluent-search-alpha/distribution_groups/portable) |
 |-------------------|--------------|----------|
