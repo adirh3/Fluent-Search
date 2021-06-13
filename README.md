@@ -4,6 +4,11 @@ Fluent Search
 
 ## About
 Official Repository for reporting bugs or asking for new features related to Fluent Search. With Fluent Search, you can search for running apps, browser tabs, in-app content, files and more.
+|                  | Useful Links    |               |
+|------------------|-----------------|---------------|
+| [Official Website](https://fluentsearch.net/) | [Windows Store](https://www.microsoft.com/en-us/p/fluent-search/9nk1hlwhnp8s)   | [Feedback](https://github.com/adirh3/Fluent-Search/issues)      |
+| [Wiki](https://github.com/adirh3/Fluent-Search/wiki)             | [Discord Channel](https://discord.gg/W2EuWvD6GD) | [Plugins Guide](https://fluentsearch.net/posts/c-plugins-developer-guide) |
+| [Support Email](mailto:support@fluentsearch.net)    |                 |               |
 
 ## Issues
 When reporting an issue, please state your Fluent Search and Windows version. Try to include as much information as possible.
