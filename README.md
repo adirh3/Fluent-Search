@@ -29,7 +29,7 @@ When requesting a feature, please include a scenario that in which this feature 
 
 The Stable version is available on the Official Fluent Search website which can be found [**here**](https://fluentsearch.net). Click on `Download` and choose the preferred Installer file to get the Fluent Search.
 
-#### Nightly version
+#### Nightly version (Previously called Alpha)
 Nightly versions are updated daily, and most likely to contains bugs. You can update to Nightly version by changing Settings -> System -> Release feed -> Nightly.
 
 To download Nightly versions without updating from Stable:
