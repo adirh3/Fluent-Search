@@ -9,14 +9,17 @@ Fluent Search
 <br>
 [![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
 [![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=dot-net&logoColor=white)](https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet-framework)
-
+[![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/en-in/windows)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCWzWaquwBR2cK4A4dSJ1j3Q)
+<br>
+[![Watchers](https://img.shields.io/github/watchers/adirh3/Fluent-Search?style=social)](https://github.com/adirh3/Fluent-Search/watchers)
+[![Followers](https://img.shields.io/twitter/follow/FluentSearch?style=social)](https://twitter.com/FluentSearch)
 
 ## About
 Official Repository for reporting bugs or asking for new features related to Fluent Search. With Fluent Search, you can search for running apps, browser tabs, in-app content, files and more.
 #### Built With
 * [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
 * [Avalonia UI](https://avaloniaui.net/)
-<br>
 
 |                  | Useful Links    |               |
 |------------------|-----------------|---------------|
