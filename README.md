@@ -4,11 +4,16 @@ Fluent Search
 
 ## About
 Official Repository for reporting bugs or asking for new features related to Fluent Search. With Fluent Search, you can search for running apps, browser tabs, in-app content, files and more.
+#### Built With
+* [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
+* [Avalonia UI](https://avaloniaui.net/)
+<br>
+
 |                  | Useful Links    |               |
 |------------------|-----------------|---------------|
 | [Official Website](https://fluentsearch.net/) | [Windows Store](https://www.microsoft.com/en-us/p/fluent-search/9nk1hlwhnp8s)   | [Feedback](https://github.com/adirh3/Fluent-Search/issues)      |
-| [Wiki](https://github.com/adirh3/Fluent-Search/wiki)             | [Discord Channel](https://discord.gg/W2EuWvD6GD) | [Plugins Guide](https://fluentsearch.net/posts/c-plugins-developer-guide) |
-| [Support Email](mailto:support@fluentsearch.net)    |                 |               |
+| [Wiki](https://github.com/adirh3/Fluent-Search/wiki)             | [Discord Channel](https://discord.gg/W2EuWvD6GD) | [C# Plugins Guide](https://fluentsearch.net/posts/c-plugins-developer-guide) |
+| [Support Email](mailto:support@fluentsearch.net)    | [Blog](https://fluentsearch.net/blog)  |  [Twitter](https://twitter.com/FluentSearch)   |
 
 ## Issues
 When reporting an issue, please state your Fluent Search and Windows version. Try to include as much information as possible.
@@ -17,12 +22,11 @@ When reporting an issue, please state your Fluent Search and Windows version. Tr
 When requesting a feature, please include a scenario that in which this feature will be useful for you.
 
 ## Downloads
-### Stable
+#### Stable
 
 The Stable version is available on the [website](https://fluentsearch.net).
 
-### Alpha
-
+#### Alpha
 Alpha versions are updated daily, and most likely to contains bugs. You can update to Alpha version by changeing Settings -> System -> Release feed -> Alpha.
 
 To download Alpha versions without updating from Stable:
