@@ -1,4 +1,4 @@
-Fluent Search
+<img align="center" src="https://fluentsearch.net/favicon.ico" alt="logo" width="35" height="35"> Fluent Search
 ======
 ![image](fluent_search_img.png)
 
