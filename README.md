@@ -2,6 +2,15 @@ Fluent Search
 ======
 ![image](https://user-images.githubusercontent.com/27368554/120908846-4ff81b80-c677-11eb-9f00-587bace6d3fc.png)
 
+[![Stars](https://img.shields.io/github/stars/adirh3/Fluent-Search)](https://github.com/adirh3/Fluent-Search/stargazers)
+[![Forks](https://img.shields.io/github/forks/adirh3/Fluent-Search)](https://github.com/adirh3/Fluent-Search/network/members)
+[![Issues](https://img.shields.io/github/issues/adirh3/Fluent-Search)](https://github.com/adirh3/Fluent-Search/issues)
+[![Discord](https://img.shields.io/badge/discord-join%20chat-46BC99)](https://discord.gg/W2EuWvD6GD)
+<br>
+[![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
+[![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=dot-net&logoColor=white)](https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet-framework)
+
+
 ## About
 Official Repository for reporting bugs or asking for new features related to Fluent Search. With Fluent Search, you can search for running apps, browser tabs, in-app content, files and more.
 #### Built With
