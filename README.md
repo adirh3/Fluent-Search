@@ -15,7 +15,7 @@ Official Repository for reporting bugs or asking for new features related to Flu
 |                  | Useful Links    |               |
 |------------------|-----------------|---------------|
 | [Official Website](https://fluentsearch.net/) | [Windows Store](https://www.microsoft.com/en-us/p/fluent-search/9nk1hlwhnp8s)   | [Feedback](https://github.com/adirh3/Fluent-Search/issues)      |
-| [Wiki](https://github.com/adirh3/Fluent-Search/wiki)             | [Discord Channel](https://discord.gg/W2EuWvD6GD) | [C# Plugins Guide](https://fluentsearch.net/posts/c-plugins-developer-guide) |
+| [Wiki](https://github.com/adirh3/Fluent-Search/wiki)             | [Discord Channel](https://discord.gg/W2EuWvD6GD) | [C# Plugins Guide](https://github.com/adirh3/Fluent-Search/wiki/3.x-Plugins-Developer-Guide) |
 | [Support Email](mailto:support@fluentsearch.net)    | [Blog](https://fluentsearch.net/blog)  |  [Twitter](https://twitter.com/FluentSearch)   |
 
 ## :ticket: Issues
@@ -35,3 +35,8 @@ Nightly versions are updated daily, and most likely to contains bugs. You can up
 To download Nightly versions without updating from Stable:
 | [Windows Installer](https://install.appcenter.ms/users/adirh3-gmail.com/apps/fluent-search-alpha/distribution_groups/exe) | [Windows APPX](https://install.appcenter.ms/users/adirh3-gmail.com/apps/fluent-search-alpha/distribution_groups/appx) | [Portable](https://install.appcenter.ms/users/adirh3-gmail.com/apps/fluent-search-alpha/distribution_groups/portable) |
 |-------------------|--------------|----------|
+
+## :computer: Compatibility
+| Windows 7     | Windows 8/8.1 | Windows 10 | Windows 11 |
+|---------------|---------------|------------|------------|
+| Not Supported |    Not Supported  | Supported  | Supported  |
