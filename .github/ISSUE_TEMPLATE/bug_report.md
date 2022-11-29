@@ -24,8 +24,9 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
- - Windows 10 Version: [e.g. 20H1]
- - Fluent Search Version [e.g. 0.9.80.0]
+ - Window 10/11 Version: [e.g. 20H1]
+ - Fluent Search Version: [e.g. 0.9.80.0]
+ - Installation source: Installer / Microsoft Store / Portable / Appx
 
 **Additional context**
 Add any other context about the problem here.
