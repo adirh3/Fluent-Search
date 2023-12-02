@@ -9,7 +9,7 @@
 ## :book: About
 Official Repository for reporting bugs or asking for new features related to Fluent Search. With Fluent Search, you can search for running apps, browser tabs, in-app content, files and more.
 #### Built With
-* [.NET 7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
+* [.NET 8](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 * [Avalonia UI](https://avaloniaui.net/)
 
 |                  | Useful Links    |               |
