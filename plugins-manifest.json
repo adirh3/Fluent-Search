@@ -145,7 +145,7 @@
     "DisplayName": "Currency Converter",
     "Description": "Type e.g. 12 USD in EUR to calculate and copy the EUR value into the clipboard.",
     "PublisherName": "eikaramba(notific.at)",
-    "Version": "1.0.0.1",
+    "Version": "1.1.0.0",
     "MinimumFluentSearchVersion": null,
     "URL": "https://github.com/adirh3/Fluent-Search-Tasks/tree/main/Web/CurrencyConverter",
     "DownloadURL": "https://raw.githubusercontent.com/adirh3/Fluent-Search-Tasks/main/Web/CurrencyConverter/convert_currencies.yaml",
