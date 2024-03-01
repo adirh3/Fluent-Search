@@ -1,0 +1,19 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: AzureFileCopy@5
+  inputs:
+    SourcePath: '*.json'
+    azureSubscription: 'Visual Studio Enterprise Subscription (20ccd567-1ffd-428b-949d-089c504d45eb)'
+    Destination: 'AzureBlob'
+    storage: 'stfluentsearch'
+    ContainerName: 'fluent-search'
