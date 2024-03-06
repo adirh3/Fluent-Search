@@ -187,7 +187,7 @@
     "DisplayName": "Search Tag Switches",
     "Description": "Use common \u0027keywords\u0027 to trigger useful search tags",
     "PublisherName": "Blast Apps",
-    "Version": "1.0.0.0",
+    "Version": "1.0.0.1",
     "MinimumFluentSearchVersion": null,
     "URL": "https://github.com/adirh3/Fluent-Search-Tasks/tree/main/Utilities/Search%20Tag%20Switches",
     "DownloadURL": "https://raw.githubusercontent.com/adirh3/Fluent-Search-Tasks/main/Utilities/Search%20Tag%20Switches/Search%20Tag%20Switches.yaml",
