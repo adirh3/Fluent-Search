@@ -173,7 +173,7 @@
     "DisplayName": "C# City",
     "Description": "Run basic C# expressions by typing them inside {}",
     "PublisherName": "Blast Apps",
-    "Version": "1.0.0.0",
+    "Version": "1.0.0.1",
     "MinimumFluentSearchVersion": null,
     "URL": "https://github.com/adirh3/Fluent-Search-Tasks/tree/main/Utilities/C%23%20City",
     "DownloadURL": "https://raw.githubusercontent.com/adirh3/Fluent-Search-Tasks/main/Utilities/C%23%20City/C%23%20City.yaml",
