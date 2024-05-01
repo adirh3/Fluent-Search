@@ -17,3 +17,10 @@ steps:
     Destination: 'AzureBlob'
     storage: 'stfluentsearch'
     ContainerName: 'fluent-search'
+
+- task: AzureCLI@2
+  inputs:
+    azureSubscription: 'Visual Studio Enterprise Subscription (20ccd567-1ffd-428b-949d-089c504d45eb)'
+    scriptType: 'ps'
+    scriptLocation: 'inlineScript'
+    inlineScript: 'az afd endpoint purge -g rg-fluentsearch --profile-name fluentsearch-cdn --endpoint-name fluentsearch-cdn --content-paths ''/*'' --no-wait'
