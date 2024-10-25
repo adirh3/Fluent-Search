@@ -33,8 +33,11 @@ The Stable version is available on the Official Fluent Search website which can 
 Nightly versions are updated daily, and most likely to contain bugs. You can update to Nightly version by changing Settings -> System -> Release feed -> Nightly.
 
 To download Nightly versions without updating from Stable:
-| [Windows Installer](https://install.appcenter.ms/users/adirh3-gmail.com/apps/fluent-search-alpha/distribution_groups/exe) | [Windows APPX](https://install.appcenter.ms/users/adirh3-gmail.com/apps/fluent-search-alpha/distribution_groups/appx) | [Portable](https://install.appcenter.ms/users/adirh3-gmail.com/apps/fluent-search-alpha/distribution_groups/portable) |
-|-------------------|--------------|----------|
+|                 | X64                                                                                                    | ARM64                                                                                                   |
+|-----------------|--------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| **Windows Installer**  | [Download](https://download.fluentsearch.net/fluent-search-daily/x64/Fluent-Search.exe)          | [Download](https://download.fluentsearch.net/fluent-search-daily/arm64/Fluent-Search.exe)               |
+| **Windows APPX**       | [Download](https://download.fluentsearch.net/fluent-search-daily/x64/FluentSearch.appx)          | [Download](https://download.fluentsearch.net/fluent-search-daily/arm64/FluentSearch.appx)               |
+| **Portable**           | [Download](https://download.fluentsearch.net/fluent-search-daily/x64/fluent-search-portable.zip) | [Download](https://download.fluentsearch.net/fluent-search-daily/arm64/fluent-search-portable.zip)      |
 
 ## :computer: Compatibility
 | Windows 7     | Windows 8/8.1 | Windows 10 | Windows 11 |
