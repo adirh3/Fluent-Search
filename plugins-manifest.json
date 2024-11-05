@@ -19,10 +19,10 @@
     "DisplayName": "Translator",
     "Description": "Use translator tag or specific language tag to translate text",
     "PublisherName": "Blast Apps",
-    "Version": "1.3.0.3",
+    "Version": "1.4.0.0",
     "MinimumFluentSearchVersion": null,
     "URL": "https://github.com/adirh3/Translator.Fluent.Plugin",
-    "DownloadURL": "https://stfluentsearch.blob.core.windows.net/fluent-search-plugins/Translator.Fluent.Plugin.zip",
+    "DownloadURL": "https://download.fluentsearch.net/fluent-search-plugins/Translator.Fluent.Plugin.1.4.0.zip",
     "IconUrl": null,
     "IconGlyph": "",
     "IconBase64": null
@@ -36,7 +36,7 @@
     "Version": "1.1.0.6",
     "MinimumFluentSearchVersion": null,
     "URL": "https://github.com/adirh3/ProcessKill.Fluent.Plugin",
-    "DownloadURL": "https://stfluentsearch.blob.core.windows.net/fluent-search-plugins/ProcessKill.Fluent.Plugin,1.1.0.6.zip",
+    "DownloadURL": "https://download.fluentsearch.net/fluent-search-plugins/ProcessKill.Fluent.Plugin,1.1.0.6.zip",
     "IconUrl": null,
     "IconGlyph": "",
     "IconBase64": null
@@ -50,7 +50,7 @@
     "Version": "1.2.0.9",
     "MinimumFluentSearchVersion": null,
     "URL": "https://github.com/adirh3/Clipboard.Fluent.Plugin",
-    "DownloadURL": "https://stfluentsearch.blob.core.windows.net/fluent-search-plugins/Clipboard.Fluent.Plugin.1.2.0.8.zip",
+    "DownloadURL": "https://download.fluentsearch.net/fluent-search-plugins/Clipboard.Fluent.Plugin.1.2.0.8.zip",
     "IconUrl": null,
     "IconGlyph": "",
     "IconBase64": null
@@ -64,7 +64,7 @@
     "Version": "1.0.0.8",
     "MinimumFluentSearchVersion": null,
     "URL": "https://github.com/adirh3/Firefox.Fluent.Plugin",
-    "DownloadURL": "https://stfluentsearch.blob.core.windows.net/fluent-search-plugins/Firefox.Fluent.Plugin.1.0.0.8.zip",
+    "DownloadURL": "https://download.fluentsearch.net/fluent-search-plugins/Firefox.Fluent.Plugin.1.0.0.8.zip",
     "IconUrl": null,
     "IconGlyph": "",
     "IconBase64": null
@@ -92,7 +92,7 @@
     "Version": "1.1.0.1",
     "MinimumFluentSearchVersion": null,
     "URL": "https://github.com/MakeshVineeth/DuckDuckGo.Fluent.Plugin",
-    "DownloadURL": "https://stfluentsearch.blob.core.windows.net/fluent-search-plugins/DuckDuckGo.Fluent.Plugin.2.0.0.1.zip",
+    "DownloadURL": "https://download.fluentsearch.net/fluent-search-plugins/DuckDuckGo.Fluent.Plugin.2.0.0.1.zip",
     "IconUrl": null,
     "IconGlyph": "",
     "IconBase64": null
@@ -106,7 +106,7 @@
     "Version": "1.4.0.7",
     "MinimumFluentSearchVersion": null,
     "URL": "https://github.com/MakeshVineeth/WikiPreview.Fluent.Plugin",
-    "DownloadURL": "https://stfluentsearch.blob.core.windows.net/fluent-search-plugins/WikiPreview.Fluent.Plugin.1.4.0.7.zip",
+    "DownloadURL": "https://download.fluentsearch.net/fluent-search-plugins/WikiPreview.Fluent.Plugin.1.4.0.7.zip",
     "IconUrl": null,
     "IconGlyph": "",
     "IconBase64": null
@@ -120,7 +120,7 @@
     "Version": "1.0.0.1",
     "MinimumFluentSearchVersion": null,
     "URL": "https://github.com/Nuno69/YoutubeSearch",
-    "DownloadURL": "https://stfluentsearch.blob.core.windows.net/fluent-search-plugins/YoutubeSearch.Fluent.Plugin.zip",
+    "DownloadURL": "https://download.fluentsearch.net/fluent-search-plugins/YoutubeSearch.Fluent.Plugin.zip",
     "IconUrl": null,
     "IconGlyph": "",
     "IconBase64": null
