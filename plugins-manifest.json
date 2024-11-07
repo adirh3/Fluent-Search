@@ -141,6 +141,20 @@
   },
   {
     "PluginType": "Task",
+    "Name": "Color preview",
+    "DisplayName": "Color preview",
+    "Description": "Type color RGB or ARGB starting with # to preview it",
+    "PublisherName": "Blast Apps",
+    "Version": "1.0.0.0",
+    "MinimumFluentSearchVersion": null,
+    "URL": "https://github.com/adirh3/Fluent-Search-Tasks/tree/main/Utilities/Color%20preview",
+    "DownloadURL": "https://raw.githubusercontent.com/adirh3/Fluent-Search-Tasks/refs/heads/main/Utilities/Color%20preview/Color%20preview.yaml",
+    "IconUrl": null,
+    "IconGlyph": "\uE790",
+    "IconBase64": null
+  },
+  {
+    "PluginType": "Task",
     "Name": "Currency Converter",
     "DisplayName": "Currency Converter",
     "Description": "Type e.g. 12 USD in EUR to calculate and copy the EUR value into the clipboard.",
