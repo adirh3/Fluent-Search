@@ -103,10 +103,10 @@
     "DisplayName": "Wikipedia Preview",
     "Description": "Display Wikipedia Content in Fluent Search",
     "PublisherName": "Makesh Vineeth",
-    "Version": "1.4.0.7",
+    "Version": "1.4.0.8",
     "MinimumFluentSearchVersion": null,
     "URL": "https://github.com/MakeshVineeth/WikiPreview.Fluent.Plugin",
-    "DownloadURL": "https://download.fluentsearch.net/fluent-search-plugins/WikiPreview.Fluent.Plugin.1.4.0.7.zip",
+    "DownloadURL": "https://download.fluentsearch.net/fluent-search-plugins/WikiPreview.Fluent.Plugin.1.4.0.8.zip",
     "IconUrl": null,
     "IconGlyph": "",
     "IconBase64": null
