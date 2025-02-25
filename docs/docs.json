@@ -1,0 +1,114 @@
+{
+  "RootDocs": [
+    {
+      "Name": "Getting started",
+      "Link": "docs/Getting started.html"
+    },
+    {
+      "Name": "Privacy",
+      "Link": "docs/Privacy.html"
+    },
+    {
+      "Name": "Hotkeys",
+      "Link": "docs/Hotkeys.html"
+    },
+    {
+      "Name": "Search tags",
+      "Link": "docs/Search tags.html"
+    },
+    {
+      "Name": "Result preview",
+      "Link": "docs/Result preview.html"
+    },
+    {
+      "Name": "Search options",
+      "Link": "docs/Search options.html"
+    },
+    {
+      "Name": "System settings",
+      "Link": "docs/System settings.html"
+    }
+  ],
+  "Folders": [
+    {
+      "FolderName": "Customization",
+      "Docs": [
+        {
+          "Name": "Personalization",
+          "Link": "docs/Customization/Personalization.html"
+        },
+        {
+          "Name": "Contributing themes",
+          "Link": "docs/Customization/Contributing themes.html"
+        }
+      ]
+    },
+    {
+      "FolderName": "Plugins",
+      "Docs": [
+        {
+          "Name": "General",
+          "Link": "docs/Plugins/General.html"
+        },
+        {
+          "Name": "Tasks",
+          "Link": "docs/Plugins/Tasks.html"
+        },
+        {
+          "Name": "Authoring C# plugins",
+          "Link": "docs/Plugins/Authoring C# plugins.html"
+        },
+        {
+          "Name": "Contributing plugins",
+          "Link": "docs/Plugins/Contributing plugins.html"
+        }
+      ]
+    },
+    {
+      "FolderName": "Screen search",
+      "Docs": [
+        {
+          "Name": "General",
+          "Link": "docs/Screen search/Screen Search.html"
+        },
+        {
+          "Name": "Advanced usage",
+          "Link": "docs/Screen search/Advanced usage.html"
+        },
+        {
+          "Name": "Customization",
+          "Link": "docs/Screen search/Customization.html"
+        },
+        {
+          "Name": "OCR",
+          "Link": "docs/Screen search/OCR.html"
+        }
+      ]
+    },
+    {
+      "FolderName": "Search apps",
+      "Docs": [
+        {
+          "Name": "General",
+          "Link": "docs/Search apps/Search Apps General.html"
+        },
+        {
+          "Name": "Files",
+          "Link": "docs/Search apps/Files.html"
+        },
+        {
+          "Name": "Browser",
+          "Link": "docs/Search apps/Browser.html"
+        },
+        {
+          "Name": "Commands",
+          "Link": "docs/Search apps/Commands.html"
+        },
+        {
+          "Name": "Web",
+          "Link": "docs/Search apps/Web.html"
+        }
+      ]
+    }
+  ]
+}
