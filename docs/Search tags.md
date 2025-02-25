@@ -1,6 +1,6 @@
 ## Understanding and Using Search Tags in Fluent Search
 
-<img alt="Fluent Search Search Tags Settings" src="/docs/images/FileTagLight.png" width="700" height="auto">
+<img alt="Fluent Search Search Tags Settings" src="/docs/images/FileTagLight.webp" width="700" height="auto">
 
 Fluent Search offers **Search Tags** as a powerful way to refine search results and retrieve more relevant information. Whether you’re looking for specific files, browser history, web results, or filtering search results by file type, **Search Tags** provide a quick and efficient way to focus your search.
 
@@ -12,7 +12,7 @@ For example:
 - Searching `"report.pdf"` might show many results, including web suggestions and applications.
 - Searching **`pdf: report.pdf`** ensures only pdf files results appear.
 
-<img alt="Fluent Search PDF Search Tag" src="/docs/images/PdfSearchTagLight.png" width="600" height="auto">
+<img alt="Fluent Search PDF Search Tag" src="/docs/images/PdfSearchTagLight.webp" width="600" height="auto">
 
 
 ### How to Use Search Tags
@@ -26,7 +26,7 @@ You can combine multiple tags to refine results further.
 
 ### Viewing Available Tags
 
-<img alt="Fluent Search Search Tags Settings" src="/docs/images/SearchTagsSettingsLight.png" width="800" height="auto">
+<img alt="Fluent Search Search Tags Settings" src="/docs/images/SearchTagsSettingsLight.webp" width="800" height="auto">
 
 Fluent Search provides multiple ways to see available and supported tags:
 - Each **Search Application** setting page lists all the relevant tags it supports.
@@ -35,7 +35,7 @@ Fluent Search provides multiple ways to see available and supported tags:
 
 ### Custom and Ignored Search Tags
 
-<img alt="Fluent Search Search Tags Settings" src="/docs/images/CustomSearchTagLight.png" width="800" height="auto">
+<img alt="Fluent Search Search Tags Settings" src="/docs/images/CustomSearchTagLight.webp" width="800" height="auto">
 
 Fluent Search allows full customization of search tags:
 - **Create Custom Tags**: You can define your own search tags, such as shortcuts to specific folders.
@@ -52,7 +52,7 @@ Here are some real-world scenarios where search tags can enhance your experience
 
 #### Searching Inside Specific Folders
 
-<img alt="Fluent Search Search Tags Settings" src="/docs/images/MultipleTagsLight.png" width="700" height="auto">
+<img alt="Fluent Search Search Tags Settings" src="/docs/images/MultipleTagsLight.webp" width="700" height="auto">
 
 - Type an **exact folder path**, press `TAB`, and Fluent Search will insert it as a tag, allowing searches inside that folder.
 - Combine a **folder path** with **file type tags** to refine searches, e.g., searching `C:\Projects\ reports .docx` will find Word documents inside the Projects folder.
@@ -70,7 +70,7 @@ Here are some real-world scenarios where search tags can enhance your experience
 
 ### Customizing Search Tags
 
-<img alt="Fluent Search Search Tags Settings" src="/docs/images/WebSearchTagsLight.png" width="800" height="auto">
+<img alt="Fluent Search Search Tags Settings" src="/docs/images/WebSearchTagsLight.webp" width="800" height="auto">
 
 Many search tags are configurable in Fluent Search settings:
 - Adjust the behavior of file-related tags in **Files Settings**.

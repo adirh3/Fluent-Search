@@ -1,6 +1,6 @@
 ## Search Apps in Fluent Search
 
-<img alt="Fluent Search Window" src="/docs/images/SearchAppsSettingsLight.png" width="700" height="auto">
+<img alt="Fluent Search Window" src="/docs/images/SearchAppsSettingsLight.webp" width="700" height="auto">
 
 Fluent Search offers a variety of **Search Apps** that allow you to locate and access different resources on your computer efficiently. Each Search App focuses on a specific type of content, such as files, applications, browser tabs, or system settings. Understanding and managing these Search Apps can enhance your productivity and streamline your workflow.
 

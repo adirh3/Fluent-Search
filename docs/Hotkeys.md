@@ -11,7 +11,7 @@ Fluent Search provides two primary types of hotkeys:
 
 ### Accessing and Configuring Hotkeys
 
-<img alt="Fluent Search Window" src="/docs/images/HotkeysSettingsLight.png" width="700" height="auto">
+<img alt="Fluent Search Window" src="/docs/images/HotkeysSettingsLight.webp" width="700" height="auto">
 
 To view and modify hotkeys:
 

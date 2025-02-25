@@ -1,6 +1,6 @@
 ## Contributing Themes to the Fluent Search Community
 
-<img alt="Fluent Search Window" src="/docs/images/ThemesSettingsLight.png" width="700" height="auto">
+<img alt="Fluent Search Window" src="/docs/images/ThemesSettingsLight.webp" width="700" height="auto">
 
 Fluent Search offers a vibrant theming system, allowing users to personalize their experience and share their creations with the community. By contributing your custom themes, you can help others enhance their Fluent Search interface.
 

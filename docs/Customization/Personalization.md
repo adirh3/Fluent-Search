@@ -1,6 +1,6 @@
 ## Customizing Fluent Search: Personalization Options
 
-<img alt="Fluent Search Window" src="/docs/images/PersonalizationSettingsLight.png" width="700" height="auto">
+<img alt="Fluent Search Window" src="/docs/images/PersonalizationSettingsLight.webp" width="700" height="auto">
 
 Fluent Search offers a range of personalization settings, allowing you to tailor its appearance and behavior to your preferences. These options are accessible through the **Settings** menu under **Personalization**.
 

@@ -1,6 +1,6 @@
 ## Screen Search in Fluent Search
 
-<img alt="Fluent Search Window" src="/docs/images/ScreenSearchLight.png" width="700" height="auto">
+<img alt="Fluent Search Window" src="/docs/images/ScreenSearchLight.webp" width="700" height="auto">
 
 Fluent Search's **Screen Search** feature empowers users to navigate and interact with their computer entirely through keyboard inputs, minimizing reliance on the mouse. By overlaying labels on clickable areas of the screen, users can select and activate these elements by typing the corresponding letters.
 

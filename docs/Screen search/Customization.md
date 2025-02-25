@@ -1,6 +1,6 @@
 ## Personalizing Screen Search in Fluent Search
 
-<img alt="Fluent Search Window" src="/docs/images/ScreenSearchCustomizationLight.png" width="700" height="auto">
+<img alt="Fluent Search Window" src="/docs/images/ScreenSearchCustomizationLight.webp" width="700" height="auto">
 
 Fluent Search's **Screen Search** feature is designed to help you navigate your computer effortlessly using just your keyboard. To make this experience as comfortable and efficient as possible, you can customize various aspects of Screen Search to suit your preferences.
 

@@ -1,6 +1,6 @@
 ## System Settings in Fluent Search
 
-<img alt="Fluent Search Window" src="/docs/images/SystemSettingsLight.png" width="700" height="auto">
+<img alt="Fluent Search Window" src="/docs/images/SystemSettingsLight.webp" width="700" height="auto">
 
 Fluent Search offers a comprehensive set of system configurations, allowing users to tailor the application's behavior to their preferences. These settings are accessible through the **Settings** menu under the **System** section.
 

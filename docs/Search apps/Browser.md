@@ -1,6 +1,6 @@
 ## Browser Search App in Fluent Search
 
-<img alt="Fluent Search Window" src="/docs/images/BrowserHistoryLight.png" width="600" height="auto">
+<img alt="Fluent Search Window" src="/docs/images/BrowserHistoryLight.webp" width="600" height="auto">
 
 The **Browser** search app in Fluent Search enhances your productivity by providing seamless access to your browser's bookmarks, history, and search engines directly from the Fluent Search interface. It automatically detects profiles from Chromium-based browsers and Firefox, allowing you to search across all your browsing data efficiently.
 

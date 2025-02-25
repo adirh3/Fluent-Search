@@ -1,6 +1,6 @@
 ## Customizing Search Options in Fluent Search
 
-<img alt="Fluent Search Window" src="/docs/images/SearchSettingsLight.png" width="700" height="auto">
+<img alt="Fluent Search Window" src="/docs/images/SearchSettingsLight.webp" width="700" height="auto">
 
 Fluent Search offers a **highly customizable search experience**, allowing users to fine-tune how results are displayed, grouped, and prioritized. By adjusting these settings, you can **speed up search, improve relevance, and control interactions**.
 
@@ -21,7 +21,7 @@ To configure shortcuts:
 
 ### Results Grouping
 
-<img alt="Fluent Search Window" src="/docs/images/SearchGroupsLight.png" width="600" height="auto">
+<img alt="Fluent Search Window" src="/docs/images/SearchGroupsLight.webp" width="600" height="auto">
 
 Grouping results makes it easier to navigate search results. Fluent Search provides **three grouping modes**:
 
@@ -60,7 +60,7 @@ Instant Search allows Fluent Search to **start searching automatically** without
 
 ### Prioritizing Search Results
 
-<img alt="Fluent Search Window" src="/docs/images/PrioritizationSettingsLight.png" width="700" height="auto">
+<img alt="Fluent Search Window" src="/docs/images/PrioritizationSettingsLight.webp" width="700" height="auto">
 
 Fluent Search allows users to **set rules for prioritizing certain results**. This helps control **which results appear first**, making searches faster and more relevant.
 
@@ -78,7 +78,7 @@ Fluent Search allows users to **set rules for prioritizing certain results**. Th
 
 Additionally, you can manually sort results using the **order icon in the bottom left of the search window**. Click this icon to **sort results by name, type, modified date, etc.**
 
-<img alt="Fluent Search Window" src="/docs/images/OrderResultsLight.png" width="600" height="auto">
+<img alt="Fluent Search Window" src="/docs/images/OrderResultsLight.webp" width="600" height="auto">
 
 ---
 

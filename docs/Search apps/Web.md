@@ -1,6 +1,6 @@
 ## Configuring Web Search in Fluent Search
 
-<img alt="Fluent Search Search Tags Settings" src="/docs/images/GoogleWebSearchLight.png" width="600" height="auto">
+<img alt="Fluent Search Search Tags Settings" src="/docs/images/GoogleWebSearchLight.webp" width="600" height="auto">
 
 Fluent Search enables users to perform web searches directly from its interface, streamlining the process of accessing information online. By configuring custom web search engines, you can tailor the search experience to your preferences, allowing for quick queries on platforms like Google, Bing, and others.
 

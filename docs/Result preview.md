@@ -6,7 +6,7 @@ Fluent Search includes a **Preview** feature that allows you to quickly preview 
 
 #### Opening the Preview Panel
 
-<img alt="Fluent Search Window" src="/docs/images/PreviewMarkdownLight.png" width="600" height="auto">
+<img alt="Fluent Search Window" src="/docs/images/PreviewMarkdownLight.webp" width="600" height="auto">
 
 Preview can be toggled in two ways:
 - **Press `Alt + P`** (default hotkey, configurable in settings).
@@ -56,7 +56,7 @@ Fluent Search includes several built-in **Preview Modules**, each designed for d
 
 ### Configuring Preview Modules
 
-<img alt="Fluent Search Window" src="/docs/images/PreviewModulesLight.png" width="700" height="auto">
+<img alt="Fluent Search Window" src="/docs/images/PreviewModulesLight.webp" width="700" height="auto">
 
 Each module can be **enabled or disabled** based on your needs:
 1. **Go to `Settings > Preview > Modules`**.

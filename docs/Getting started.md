@@ -1,6 +1,6 @@
 ## Getting Started with Fluent Search
 
-<img alt="Fluent Search Window" src="/docs/images/SearchLight.png" width="600" height="auto">
+<img alt="Fluent Search Window" src="/docs/images/SearchLight.webp" width="600" height="auto">
 
 Fluent Search is a powerful search tool designed to enhance your productivity by allowing you to quickly locate applications, browser tabs, files, settings, and more. It integrates seamlessly into your workflow, providing a fast and intuitive way to search and navigate your system.
 

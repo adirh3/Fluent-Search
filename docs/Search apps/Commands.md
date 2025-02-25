@@ -1,6 +1,6 @@
 ## Commands Search App in Fluent Search
 
-<img alt="Fluent Search Window" src="/docs/images/PowerShellSearchLight.png" width="600" height="auto">
+<img alt="Fluent Search Window" src="/docs/images/PowerShellSearchLight.webp" width="600" height="auto">
 
 The **Commands** search app in Fluent Search enhances your productivity by allowing you to execute command-line instructions directly from the search interface. It also provides quick access to your command history and replicates the functionality of the Windows Run dialog through the `Run` tag. By configuring command-line interfaces (CLIs) within Fluent Search, you can streamline your workflow and integrate command execution seamlessly into your daily tasks.
 

@@ -1,6 +1,6 @@
 ## File Search in Fluent Search
 
-<img alt="Fluent Search Search Tags Settings" src="/docs/images/FileTagLight.png" width="600" height="auto">
+<img alt="Fluent Search Search Tags Settings" src="/docs/images/FileTagLight.webp" width="600" height="auto">
 
 Fluent Search offers a robust and efficient file search capability, enabling users to quickly locate files and directories on their system. This functionality is powered by an indexing system that supports multiple indexers, including its native indexer, Windows Search, and Everything. Understanding how these indexers work and how to configure them can enhance your search experience.
 
