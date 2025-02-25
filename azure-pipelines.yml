@@ -10,6 +10,39 @@ pool:
   vmImage: 'windows-latest'
 
 steps:
+
+# Step 1: Download the ZIP file containing your conversion tool.
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      $exeUrl = "https://stfluentsearch.blob.core.windows.net/fluent-search/DocsConverterPlayground.exe"  # <-- Replace with your converter EXE URL.
+      $downloadPath = "$(Build.ArtifactStagingDirectory)\Converter.exe"
+      Write-Host "Downloading converter EXE from $exeUrl to $downloadPath"
+      Invoke-WebRequest -Uri $exeUrl -OutFile $downloadPath
+  displayName: 'Download Converter EXE'
+
+# Step 2: Run the converter EXE, passing the docs folder as the first argument.
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      $converterExe = "$(Build.ArtifactStagingDirectory)\Converter.exe"
+      $docsPath = "$(Build.SourcesDirectory)\docs"
+      Write-Host "Running converter: $converterExe with docs path: $docsPath"
+      & $converterExe $docsPath
+  displayName: 'Run Converter EXE'
+
+# Step 3: Upload the entire docs folder (with generated HTML and docs.json) to Azure Blob Storage.
+- task: AzureFileCopy@4
+  inputs:
+    SourcePath: '$(Build.SourcesDirectory)\docs'
+    azureSubscription: 'Visual Studio Enterprise Subscription (20ccd567-1ffd-428b-949d-089c504d45eb)'
+    Destination: 'AzureBlob'
+    storage: 'stfluentsearch'
+    ContainerName: 'fluent-search'
+  displayName: 'Upload docs folder to Azure Blob Storage'
+
 - task: AzureFileCopy@5
   inputs:
     SourcePath: '*.json'
