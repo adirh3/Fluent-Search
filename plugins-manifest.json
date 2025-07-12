@@ -306,5 +306,19 @@
     "IconUrl": null,
     "IconGlyph": "",
     "IconBase64": null
+  },
+  {
+    "PluginType": "Task",
+    "Name": "Lorem Ipsum Generator",
+    "DisplayName": "Lorem Ipsum Generator",
+    "Description": "Quickly generate lorem ipsum or custom text you want",
+    "PublisherName": "mahdidev7",
+    "Version": "1.0.0.0",
+    "MinimumFluentSearchVersion": null,
+    "URL": "https://github.com/adirh3/Fluent-Search-Tasks/tree/main/Utilities/Lorem%20Ipsum%20Generator",
+    "DownloadURL": "https://raw.githubusercontent.com/adirh3/Fluent-Search-Tasks/main/Utilities/Lorem%20Ipsum%20Generator/Lorem%20Ipsum%20Generator.yaml",
+    "IconUrl": null,
+    "IconGlyph": "",
+    "IconBase64": null
   }
 ]
