@@ -34,7 +34,7 @@ steps:
   displayName: 'Run Converter EXE'
 
 # Step 3: Upload the entire docs folder (with generated HTML and docs.json) to Azure Blob Storage.
-- task: AzureFileCopy@4
+- task: AzureFileCopy@6
   inputs:
     SourcePath: '$(Build.SourcesDirectory)\docs'
     azureSubscription: 'Visual Studio Enterprise Subscription (20ccd567-1ffd-428b-949d-089c504d45eb)'
