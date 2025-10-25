@@ -43,7 +43,7 @@ steps:
     ContainerName: 'fluent-search'
   displayName: 'Upload docs folder to Azure Blob Storage'
 
-- task: AzureFileCopy@5
+- task: AzureFileCopy@6
   inputs:
     SourcePath: '*.json'
     azureSubscription: 'Visual Studio Enterprise Subscription (20ccd567-1ffd-428b-949d-089c504d45eb)'
