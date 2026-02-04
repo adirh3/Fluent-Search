@@ -176,6 +176,88 @@
           "Name": "Contributing plugins",
           "Link": "docs/Plugins/Contributing plugins.html"
         }
+      ],
+      "Folders": [
+        {
+          "FolderName": "C# plugins",
+          "Docs": [
+            {
+              "Name": "Overview",
+              "Link": "docs/Plugins/CSharp/Overview.html"
+            },
+            {
+              "Name": "API index",
+              "Link": "docs/Plugins/CSharp/API/Index.html"
+            }
+          ],
+          "Folders": [
+            {
+              "FolderName": "API",
+              "Docs": [
+                {
+                  "Name": "ISearchApplication",
+                  "Link": "docs/Plugins/CSharp/API/ISearchApplication.html"
+                },
+                {
+                  "Name": "SearchRequest",
+                  "Link": "docs/Plugins/CSharp/API/SearchRequest.html"
+                },
+                {
+                  "Name": "HandleResult",
+                  "Link": "docs/Plugins/CSharp/API/HandleResult.html"
+                },
+                {
+                  "Name": "SearchResultBase",
+                  "Link": "docs/Plugins/CSharp/API/SearchResultBase.html"
+                },
+                {
+                  "Name": "SearchOperationBase",
+                  "Link": "docs/Plugins/CSharp/API/SearchOperationBase.html"
+                },
+                {
+                  "Name": "SearchApplicationInfo",
+                  "Link": "docs/Plugins/CSharp/API/SearchApplicationInfo.html"
+                },
+                {
+                  "Name": "SearchTag",
+                  "Link": "docs/Plugins/CSharp/API/SearchTag.html"
+                },
+                {
+                  "Name": "Settings",
+                  "Link": "docs/Plugins/CSharp/API/Settings.html"
+                },
+                {
+                  "Name": "Processes",
+                  "Link": "docs/Plugins/CSharp/API/Processes.html"
+                },
+                {
+                  "Name": "Result Preview UI",
+                  "Link": "docs/Plugins/CSharp/API/ResultPreviewUI.html"
+                },
+                {
+                  "Name": "Built-in Operations",
+                  "Link": "docs/Plugins/CSharp/API/BuiltInSearchOperations.html"
+                },
+                {
+                  "Name": "Text Matching",
+                  "Link": "docs/Plugins/CSharp/API/TextMatching.html"
+                },
+                {
+                  "Name": "Async Helpers",
+                  "Link": "docs/Plugins/CSharp/API/AsyncHelpers.html"
+                },
+                {
+                  "Name": "Graphics & Images",
+                  "Link": "docs/Plugins/CSharp/API/GraphicsImages.html"
+                },
+                {
+                  "Name": "Result Tuning",
+                  "Link": "docs/Plugins/CSharp/API/ResultBehaviorTuning.html"
+                }
+              ]
+            }
+          ]
+        }
       ]
     },
     {

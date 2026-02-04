@@ -36,6 +36,10 @@ Fluent Search supports writing plugins in **C#** and also supports making Custom
 ## Getting Started
 Fluent Search uses **Search Apps** to search through many resources. In this guide, we will write a Search App that converts numbers to Hex/Binary format.
 
+If you want API-level documentation (one page per key `Blast.API` type), see:
+
+- [docs/Plugins/CSharp/Overview.html](CSharp/Overview.html)
+
 ## Source Code
 You can find an Up-to-Date code of the example below on the [**GitHub**](https://github.com/adirh3/NumberConverter.Fluent.Plugin/).
 
