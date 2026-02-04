@@ -43,6 +43,8 @@ Fluent Search offers flexibility to prevent hotkeys from interfering with other 
 - **Ignoring Hotkeys in Full-Screen Applications**: Enable this setting to disable hotkeys when running full-screen applications, such as games or video players.
 - **Ignoring Hotkeys for Specific Processes**: Specify process names for which hotkeys should be disabled.
 
+These options effectively act as **Gaming mode**. See [Gaming mode](Gaming%20mode.md) for practical recommendations and troubleshooting.
+
 ### Tips
 
 - Prefer combinations you don’t use elsewhere (for example: `Ctrl + Alt + Space`).
