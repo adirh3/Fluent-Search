@@ -1,8 +1,13 @@
 {
+  "SchemaVersion": 2,
   "RootDocs": [
     {
       "Name": "Getting started",
       "Link": "docs/Getting started.html"
+    },
+    {
+      "Name": "Installation",
+      "Link": "docs/Installation.html"
     },
     {
       "Name": "Privacy",
@@ -31,6 +36,119 @@
   ],
   "Folders": [
     {
+      "FolderName": "Tasks",
+      "Docs": [
+        {
+          "Name": "Overview",
+          "Link": "docs/Tasks/Overview.html"
+        },
+        {
+          "Name": "Triggers",
+          "Link": "docs/Tasks/Triggers.html"
+        },
+        {
+          "Name": "Operations",
+          "Link": "docs/Tasks/Operations.html"
+        }
+      ],
+      "Folders": [
+        {
+          "FolderName": "Triggers",
+          "Docs": [
+            {
+              "Name": "Search",
+              "Link": "docs/Tasks/Triggers/Search.html"
+            },
+            {
+              "Name": "Result selector",
+              "Link": "docs/Tasks/Triggers/Result selector.html"
+            },
+            {
+              "Name": "Hotkey",
+              "Link": "docs/Tasks/Triggers/Hotkey.html"
+            }
+          ]
+        },
+        {
+          "FolderName": "Operations",
+          "Docs": [
+            {
+              "Name": "Search",
+              "Link": "docs/Tasks/Operations/Search.html"
+            },
+            {
+              "Name": "Condition",
+              "Link": "docs/Tasks/Operations/Condition.html"
+            },
+            {
+              "Name": "Custom result",
+              "Link": "docs/Tasks/Operations/Custom result.html"
+            },
+            {
+              "Name": "Custom operation",
+              "Link": "docs/Tasks/Operations/Custom operation.html"
+            },
+            {
+              "Name": "Hide search window",
+              "Link": "docs/Tasks/Operations/Hide search window.html"
+            },
+            {
+              "Name": "Show window",
+              "Link": "docs/Tasks/Operations/Show window.html"
+            },
+            {
+              "Name": "Show and search",
+              "Link": "docs/Tasks/Operations/Show and search.html"
+            },
+            {
+              "Name": "Switch Process",
+              "Link": "docs/Tasks/Operations/Switch Process.html"
+            },
+            {
+              "Name": "Delay",
+              "Link": "docs/Tasks/Operations/Delay.html"
+            },
+            {
+              "Name": "Press keys combo",
+              "Link": "docs/Tasks/Operations/Press keys combo.html"
+            },
+            {
+              "Name": "Type text",
+              "Link": "docs/Tasks/Operations/Type text.html"
+            },
+            {
+              "Name": "PS Script",
+              "Link": "docs/Tasks/Operations/PS Script.html"
+            },
+            {
+              "Name": "C# Script",
+              "Link": "docs/Tasks/Operations/C# Script.html"
+            },
+            {
+              "Name": "HTTP Action",
+              "Link": "docs/Tasks/Operations/HTTP Action.html"
+            },
+            {
+              "Name": "Open URL",
+              "Link": "docs/Tasks/Operations/Open URL.html"
+            },
+            {
+              "Name": "Open",
+              "Link": "docs/Tasks/Operations/Open.html"
+            },
+            {
+              "Name": "Open Parent Folder",
+              "Link": "docs/Tasks/Operations/Open Parent Folder.html"
+            },
+            {
+              "Name": "Copy text",
+              "Link": "docs/Tasks/Operations/Copy text.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "FolderName": "Customization",
       "Docs": [
         {
@@ -49,10 +167,6 @@
         {
           "Name": "General",
           "Link": "docs/Plugins/General.html"
-        },
-        {
-          "Name": "Tasks",
-          "Link": "docs/Plugins/Tasks.html"
         },
         {
           "Name": "Authoring C# plugins",
@@ -93,6 +207,10 @@
           "Link": "docs/Search apps/Search Apps General.html"
         },
         {
+          "Name": "Apps",
+          "Link": "docs/Search apps/Apps.html"
+        },
+        {
           "Name": "Files",
           "Link": "docs/Search apps/Files.html"
         },
@@ -107,6 +225,22 @@
         {
           "Name": "Web",
           "Link": "docs/Search apps/Web.html"
+        },
+        {
+          "Name": "Windows",
+          "Link": "docs/Search apps/Windows.html"
+        },
+        {
+          "Name": "Settings",
+          "Link": "docs/Search apps/Settings.html"
+        },
+        {
+          "Name": "Calculator",
+          "Link": "docs/Search apps/Calculator.html"
+        },
+        {
+          "Name": "In-window search",
+          "Link": "docs/Search apps/In-window search.html"
         }
       ]
     }
