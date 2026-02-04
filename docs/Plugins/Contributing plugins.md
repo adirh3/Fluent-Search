@@ -122,4 +122,14 @@ When adding your plugin to the `plugins-manifest.json`, ensure the following fie
 
 ### Additional Considerations
 
-- **Testing**: Before submitting, thoroughly test your plugin to ensure compatibility and stability with the 
+- **Testing**: Before submitting, thoroughly test your plugin to ensure compatibility and stability with Fluent Search.
+
+- **Task plugins (`.yaml`)**:
+   - Prefer hosting on GitHub and use a direct raw file URL for `DownloadURL`.
+   - Include a short README that explains the trigger (search text/hotkey), what it does, and any dependencies (installed apps, required permissions).
+   - Avoid destructive actions by default; clearly label anything that runs scripts, modifies registry/system settings, or requires admin.
+
+- **C# plugins (`.zip` / `.dll`)**:
+   - Provide a stable download link (versioned zip) and document supported Fluent Search versions.
+
+For Task plugin authoring details (triggers, operations, variables), see [Tasks.md](Tasks.md).

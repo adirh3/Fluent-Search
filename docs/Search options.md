@@ -6,7 +6,7 @@ Fluent Search offers a **highly customizable search experience**, allowing users
 
 ### Fuzzy Search
 
-Fuzzy Search is **enabled by default** and helps find results even when there are **minor typos or missing characters**. It works **only when typing without spaces**. If you want stricter matching, you can disable it in **Settings > Search > Experience**.
+Fuzzy Search is typically enabled by default and helps find results even when there are minor typos or missing characters. If you prefer strict matching, disable it in **Settings > Search > Experience**.
 
 ### Search Shortcuts
 
@@ -43,20 +43,11 @@ To do this:
 
 This ensures no accidental deletions occur while using Fluent Search.
 
-### Instant Search
+### Searching inside open apps (tabs/UI)
 
-Instant Search allows Fluent Search to **start searching automatically** without pressing a hotkey. This is particularly useful for **file dialogs or specific applications**.
+If you want to search inside open windows (for example, browser tabs), enable **Search in app content** in the Windows Search App.
 
-#### How It Works:
-- **Triggers search automatically** when a supported application or process is focused.
-- **Configurable per process**—you can set different rules for different apps.
-- **Prevents search activation** if the focused control is a text area (e.g., when typing in a document or chatbox).
-
-#### Configuring Instant Search:
-1. **Go to `Settings > Search > Instant Search`**.
-2. **Enable or disable Instant Search**.
-3. **Define specific processes** where Instant Search should be active.
-4. **Choose which search tags should apply for each process** (e.g., files only when inside a file explorer).
+See [Search apps/Windows.md](Search%20apps/Windows.md) for details.
 
 ### Prioritizing Search Results
 
@@ -76,10 +67,8 @@ Fluent Search allows users to **set rules for prioritizing certain results**. Th
 2. **Add new rules** to define how results should be ranked.
 3. **Use wildcards, “starts with,” or exact matches** for more control.
 
-Additionally, you can manually sort results using the **order icon in the bottom left of the search window**. Click this icon to **sort results by name, type, modified date, etc.**
-
-<img alt="Fluent Search Window" src="/docs/images/OrderResultsLight.webp" width="600" height="auto">
+Additionally, many result lists can be sorted or filtered depending on the Search App and the current result type.
 
 ---
 
-By customizing these **search options**, you can **optimize Fluent Search to match your workflow**, making it a **faster and more intuitive search tool**! 🚀
+By customizing these search options, you can optimize Fluent Search to match your workflow and keep results focused on what you actually use.

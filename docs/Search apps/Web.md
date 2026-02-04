@@ -2,7 +2,9 @@
 
 <img alt="Fluent Search Search Tags Settings" src="/docs/images/GoogleWebSearchLight.webp" width="600" height="auto">
 
-Fluent Search enables users to perform web searches directly from its interface, streamlining the process of accessing information online. By configuring custom web search engines, you can tailor the search experience to your preferences, allowing for quick queries on platforms like Google, Bing, and others.
+Fluent Search enables you to perform web searches directly from its interface, streamlining the process of looking things up without interrupting your workflow.
+
+You can configure multiple web search engines and expose them as Search Tags, so “search Google” or “search docs” becomes a quick, repeatable habit.
 
 ### Adding Custom Web Search Engines
 
@@ -16,7 +18,7 @@ To set up and manage web search engines in Fluent Search:
 2. **Add a New Search Engine**:
     - Click the `Add` button to create a new entry.
     - Provide a name for the search engine (e.g., "Google").
-    - Enter the search URL, incorporating `%s` as a placeholder for the search term.
+    - Enter the search URL, using `%s` as a placeholder for the search term.
 
       **Example URLs**:
         - **Google**: `https://www.google.com/search?q=%s`
@@ -27,8 +29,8 @@ To set up and manage web search engines in Fluent Search:
 
 3. **Using the Configured Search Engines**:
     - Invoke Fluent Search (`Ctrl + Alt`).
-    - Type your query followed by the name of the configured search engine.
-    - Press `Enter` to execute the search; your default web browser will open with the search results.
+    - Use the search engine’s Search Tag (type the tag name and press `Tab`) and then type your query.
+    - Press `Enter` to open results in your default browser.
 
 ### Executing Multiple Searches Simultaneously
 
@@ -58,4 +60,9 @@ To enhance your web search experience:
 - **Modify Existing Search Engines**:
     - Edit or remove existing search engine configurations as needed to keep your search options up to date.
 
-By customizing web search settings in Fluent Search, you can efficiently access information from your preferred online sources directly through the application.
+### Tips
+
+- Keep 1–2 engines “always on” and set others to tag-only to reduce noise.
+- Create engines for internal tools (wiki, issue tracker, docs site) so you can search them as fast as you search Google.
+
+By customizing web search settings, you can efficiently access information from your preferred online sources directly through Fluent Search.

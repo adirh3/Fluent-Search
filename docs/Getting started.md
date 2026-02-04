@@ -2,83 +2,105 @@
 
 <img alt="Fluent Search Window" src="/docs/images/SearchLight.webp" width="600" height="auto">
 
-Fluent Search is a powerful search tool designed to enhance your productivity by allowing you to quickly locate applications, browser tabs, files, settings, and more. It integrates seamlessly into your workflow, providing a fast and intuitive way to search and navigate your system.
+Fluent Search is a fast launcher + search tool for Windows that helps you do common “computer navigation” tasks without breaking flow: launch apps, find files, search browser data, run commands, perform web searches, and use your keyboard to act on results.
 
-### Features Overview
-- **Instant Search:** Quickly find running applications, files, browser tabs, and more.
-- **Screen Search:** Navigate on-screen elements using just your keyboard.
-- **Web Search:** Perform searches across multiple search engines.
-- **Tags and Filters:** Narrow down results efficiently.
-- **Customization:** Adjust hotkeys, themes, and modules to match your workflow.
+This guide focuses on the quickest way to become productive, plus the mental model that makes Fluent Search feel predictable.
 
 ---
 
-### Installation
+## Quick start (2 minutes)
 
-###### Download Fluent Search
-- Visit the [official website](https://fluentsearch.net/) to download Fluent Search.
-- Choose between the following versions:
-    - **Installer (.exe)** – Recommended for full integration.
-    - **APPX Package** – For Microsoft Store compatibility.
-    - **Portable Version** – No installation required.
+1. Open Fluent Search with the default hotkey: **`Ctrl + Alt`**.
+2. Start typing. Results update as you type.
+3. Use **`↑/↓`** to move between results.
+4. Press **`Enter`** to open the selected result.
+5. Press **`Esc`** to close Fluent Search.
 
-###### Installing Fluent Search
-1. Run the downloaded file.
-2. Follow the installation prompts.
-3. Once installed, launch Fluent Search from the Start Menu or desktop shortcut.
+Tip: If you want to focus your search (for example, “only files” or “only browser history”), use a **Search Tag**.
+
+Install options (Stable, Nightly, Installer/APPX/Portable): [Installation.md](Installation.md)
 
 ---
 
-### Using Fluent Search
+## Core concepts
 
-###### Activating the Search Interface
-- Press the default **`Ctrl + Alt`** shortcut to bring up Fluent Search.
-- Start typing to search for applications, files, settings, and more.
+### Search apps
 
-###### Searching for Applications and Files
-- **Running Applications:** Type the name of an open application and press `Enter` to switch to it.
-- **Files and Folders:** Enter part of the file name to locate it quickly.
-- **Browser Tabs:** Search for open tabs in supported browsers (Chrome, Edge, Firefox, etc.).
-- **System Settings:** Quickly access Windows settings and installed apps.
+Fluent Search is powered by multiple **Search apps**. Each one specializes in a type of content (Files, Browser, Commands, Web, etc.) and contributes results.
 
-###### Web Search
-- Type a search query and select a search engine from the suggestions.
-- Customize your preferred search engines in the settings.
+You can enable/disable Search apps and configure them in **Settings → Apps**.
 
-###### Screen Search
-- Use **Screen Search** mode to interact with on-screen elements.
-- This feature allows for keyboard-based navigation without using a mouse.
+### Search Tags
 
----
+Search Tags are “filters” you add to the query to narrow results. Typical examples:
 
-### Advanced Features
+- `Files` to search files and folders
+- `Browser` / `History` / `Bookmark` to search browser data
+- `Run` to run a command or open a path
 
-###### Search Tags and Filters
-- Use **tags** to refine search results.
-- Type the tag name and press `Tab` to insert it.
-- Example:
-    - `.docx` → Displays all Word documents.
-    - `.pdf` → Filters search results to show only PDFs.
+To insert a tag quickly:
 
-###### Keyboard Shortcuts
-- `Ctrl + Alt` – Open Fluent Search.
-- `Tab` – Insert search tags.
-- `Arrow down/up` – Navigate between search results.
-- `Enter` – Open selected result.
-- `Esc` – Close Fluent Search.
+1. Type the tag name
+2. Press **`Tab`** to insert it
 
-###### Customization Options
-- **Themes:** Switch between light and dark modes.
-- **Hotkeys:** Customize keyboard shortcuts.
-- **Search Modules:** Enable/disable specific search types (Apps, Files, Web, etc.).
+To jump focus to the Search Tags UI, use **`Alt + T`** (default).
+
+### Preview
+
+Preview lets you inspect a result without fully opening it.
+
+- Toggle preview: **`Alt + P`** (default) or click the preview icon
 
 ---
 
-### Support and Community
-- **GitHub:** [Fluent Search Repository](https://github.com/adirh3/Fluent-Search)
-- **Discord:** [Join the Fluent Search Community](https://discord.com/invite/fluentsearch)
-- **Website:** [Official Fluent Search Site](https://fluentsearch.net/)
+## Everyday workflows
+
+### Launch an app
+
+1. Open Fluent Search (`Ctrl + Alt`)
+2. Type the app name
+3. Press `Enter`
+
+### Find a file (fast)
+
+1. Open Fluent Search (`Ctrl + Alt`)
+2. Type `Files` and press `Tab`
+3. Type part of the file name
+
+### Search only inside a folder
+
+1. Paste or type a folder path (for example: `C:\Projects`)
+2. Press `Tab`
+3. Type what you’re looking for
+
+### Run a command / open a path
+
+1. Type `Run` and press `Tab`
+2. Type a command (for example: `cmd`, `powershell`, `notepad`) or a path
+3. Press `Enter`
+
+### Search the web
+
+1. Open Fluent Search
+2. Type your query
+3. Choose a web search option (or use a web Search Tag)
 
 ---
 
-Fluent Search is designed to make your workflow faster and more efficient. Start searching instantly and customize it to fit your needs!
+## If results are missing
+
+Use this checklist:
+
+- Check **Settings → Apps** and confirm the relevant Search App is enabled.
+- If you’re searching files, confirm your file indexer is configured in the Files Search App.
+- If you’re searching browser data, confirm supported browser profiles are enabled.
+
+If you want to search inside open windows (for example, browser tabs), see [Search apps/Windows.md](Search%20apps/Windows.md).
+
+---
+
+## Support and community
+
+- Website: https://fluentsearch.net/
+- GitHub: https://github.com/adirh3/Fluent-Search
+- Discord: https://discord.com/invite/fluentsearch

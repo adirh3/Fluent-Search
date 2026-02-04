@@ -2,7 +2,9 @@
 
 <img alt="Fluent Search Window" src="/docs/images/PowerShellSearchLight.webp" width="600" height="auto">
 
-The **Commands** search app in Fluent Search enhances your productivity by allowing you to execute command-line instructions directly from the search interface. It also provides quick access to your command history and replicates the functionality of the Windows Run dialog through the `Run` tag. By configuring command-line interfaces (CLIs) within Fluent Search, you can streamline your workflow and integrate command execution seamlessly into your daily tasks.
+The **Commands** Search App in Fluent Search lets you execute command-line instructions directly from the search interface.
+
+It’s useful when you want “run a command” to be as fast as “open an app”: no window juggling, no hunting through terminal history.
 
 ### Executing Commands
 
@@ -15,11 +17,11 @@ To run commands using the Commands search app:
     - Type your desired command as you would in a command prompt.
     - Press `Enter` to execute the command.
 
-Fluent Search will run the command using the default command-line interpreter and display the output accordingly.
+Fluent Search runs the command using your configured command-line interface (CLI).
 
 ### Accessing Command History
 
-Fluent Search maintains a history of executed commands, allowing for quick recall and reuse:
+Fluent Search maintains a history of executed commands, allowing for quick recall and reuse.
 
 1. **View Command History**:
     - In the Fluent Search interface, type a keyword related to a previously executed command.
@@ -31,7 +33,7 @@ Fluent Search maintains a history of executed commands, allowing for quick recal
 
 ### Using the Run Tag
 
-The `Run` tag in Fluent Search emulates the Windows Run dialog, enabling quick access to applications and system paths:
+The `Run` tag emulates the Windows Run dialog. It can be used to quickly open apps, execute commands, or open paths.
 
 1. **Invoke the Run Functionality**:
     - Type `Run:` followed by the application name or path.
@@ -39,6 +41,8 @@ The `Run` tag in Fluent Search emulates the Windows Run dialog, enabling quick a
 
 2. **Execute the Command**:
     - Press `Enter` to open the specified application or directory.
+
+Tip: `Run` is also a great way to launch common tools like `cmd`, `powershell`, `wt` (Windows Terminal), or to open environment-variable paths like `%windir%`.
 
 ### Configuring Command-Line Interfaces
 
@@ -63,12 +67,19 @@ To customize which command-line interpreters are available in Fluent Search:
 
 You can add multiple command-line interfaces and select a default one for general use.
 
+Common CLI choices:
+
+- PowerShell
+- Command Prompt
+- Git Bash
+- WSL distributions
+
 ### Setting a Favorite Command-Line Interface
 
 Designating a favorite CLI allows Fluent Search to integrate it with other search apps, such as opening a folder in the command line:
 
 1. **Access Command-Line Interfaces Settings**:
-    - Go to `Settings` > `Commands` > `Command-Line Interfaces`.
+    - Go to `Settings` > `Apps` > `Commands` > `Command-Line Interfaces`.
 
 2. **Set as Favorite**:
     - In the list of configured CLIs, click the star icon next to the one you prefer.

@@ -2,17 +2,17 @@
 
 <img alt="Fluent Search Window" src="/docs/images/BrowserHistoryLight.webp" width="600" height="auto">
 
-The **Browser** search app in Fluent Search enhances your productivity by providing seamless access to your browser's bookmarks, history, and search engines directly from the Fluent Search interface. It automatically detects profiles from Chromium-based browsers and Firefox, allowing you to search across all your browsing data efficiently.
+The **Browser** Search App in Fluent Search helps you search browser bookmarks and history directly from the Fluent Search window.
+
+It’s designed to be fast and “flow friendly”: you can locate a page you visited earlier today, open a bookmarked internal tool, or jump to a frequently used site without opening your browser first.
 
 ### Automatic Detection and Indexing
 
-Upon installation, Fluent Search scans your system for supported web browsers and their profiles. Once detected, it indexes bookmarks and browsing history, enabling quick searches without the need to open the browser.
+Fluent Search scans your system for supported web browsers and their profiles. Once detected, it reads bookmarks and browsing history so you can search them quickly.
 
 #### Supported Browsers
 
-- **Chromium-Based Browsers**: Google Chrome, Microsoft Edge, Brave, Opera, and others.
-
-- **Mozilla Firefox**: All profiles associated with Firefox installations.
+- **Chromium-based browsers** such as Microsoft Edge, Google Chrome, Brave, Vivaldi, and Opera.
 
 ### Searching Bookmarks and History
 
@@ -27,6 +27,22 @@ To search through your bookmarks and browsing history:
 3. **View Results**:
     - Matching bookmarks and history entries will appear in the search results.
     - Select the desired result to open it in your default browser.
+
+If you’re looking for open tabs (not history/bookmarks), enable **Search in app content** in the Windows Search App settings.
+
+### Useful Search Tags
+
+The Browser Search App commonly exposes Search Tags such as:
+
+- `Browser` (general browser searching)
+- `History` (history-only)
+- `Bookmark` (bookmarks-only)
+
+To use a tag:
+
+1. Type the tag name
+2. Press `Tab`
+3. Type your query
 
 ### Profile Management
 
@@ -53,34 +69,15 @@ If a profile isn't detected automatically, you can add it manually:
     - Click the `Add Profile` button.
 
 2. **Enter Profile Details**:
-    - **Browser Type**: Select the browser (e.g., Chrome, Firefox).
+    - **Browser Type**: Select the browser type (for example: Chrome/Edge/Brave).
     - **Profile Name**: Assign a name to the profile.
     - **Profile Path**: Specify the path to the profile directory.
 
 3. **Save the Profile**:
     - Click `Save` to include the new profile in the search index.
 
-### Automatic Search Tag Creation
+### Privacy notes
 
-Fluent Search enhances search efficiency by automatically generating search tags based on your browsing habits.
+Browser searching is intended to happen locally on your machine. If you enable other features (for example, web suggestions or third-party plugins), review their settings to understand what they use.
 
-#### How It Works
-
-- **Usage Analysis**: The application monitors your frequent searches and website visits.
-
-- **Tag Generation**: When a pattern is identified (e.g., frequent searches on Amazon), Fluent Search creates a corresponding tag (e.g., `amazon`).
-
-#### Using Automatic Tags
-
-1. **Invoke Fluent Search**:
-    - Press `Ctrl + Alt`.
-
-2. **Enter the Tag**:
-    - Type the generated tag (e.g., `amazon`) followed by your search query.
-
-3. **Execute the Search**:
-    - Press `Enter` to perform the search directly on the associated website.
-
-This feature streamlines the process of conducting site-specific searches without manually navigating to the website.
-
-By leveraging the Browser search app in Fluent Search, you can efficiently access and manage your bookmarks, browsing history, and streamline your web search experience through intelligent tag generation and profile management. 
+By leveraging the Browser Search App, you can quickly access bookmarks and history from Fluent Search and reduce time spent hunting through browser tabs.

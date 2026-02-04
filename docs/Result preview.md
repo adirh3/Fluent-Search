@@ -9,13 +9,13 @@ Fluent Search includes a **Preview** feature that allows you to quickly preview 
 <img alt="Fluent Search Window" src="/docs/images/PreviewMarkdownLight.webp" width="600" height="auto">
 
 Preview can be toggled in two ways:
-- **Press `Alt + P`** (default hotkey, configurable in settings).
-- **Click the eye icon** located in the top-right corner of the Fluent Search window.
+
+- Press **`Alt + P`** (default)
+- Click the preview icon in the top-right corner of the Fluent Search window
 
 #### Opening Preview in a Separate Window
-For a larger or detached preview, you can:
-- **Press `Shift + Enter`** (default hotkey, configurable).
-- **Middle-click a search result** to open its preview in a new window.
+
+Some results offer an **Open preview in a separate window** action. This is useful when you want to keep the preview visible while continuing to search.
 
 #### Enabling Auto Preview for Results
 You can configure **automatic preview rules** based on result types:
@@ -42,9 +42,8 @@ Fluent Search includes several built-in **Preview Modules**, each designed for d
 - Includes controls for play, pause, and seek.
 
 #### 5. **Text Files**
-- Supports various file formats, including code files.
-- Provides an **editable** interface with syntax highlighting.
-- Includes configurable themes via **Settings > Preview > Files**.
+- Supports common text-based file formats, including code files.
+- May include syntax highlighting depending on your configuration.
 
 #### 6. **File Manager**
 - Previews folders in an **explorer-like interface**.
@@ -68,4 +67,4 @@ Some preview modules have additional settings:
 - **Files Preview**: Adjust themes, text styles, and enable/disable editable mode.
 - **Web Preview**: Customize the browser behavior and rendering settings.
 
-By mastering the Preview feature, you can **streamline your workflow**, reduce unnecessary application switches, and interact with search results in a much more efficient way! 🚀
+By using Preview effectively, you can streamline your workflow, reduce unnecessary app switching, and verify results before opening them.

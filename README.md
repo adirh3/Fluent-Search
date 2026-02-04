@@ -25,12 +25,17 @@ When reporting an issue, please state your Fluent Search and Windows Versions. P
 When requesting a feature, please include a scenario that in which this feature will be useful for you. You can also include some mockup screenshots/images that can effectively represent your idea.
 
 ## :gem: Downloads
+
+More details (package types, Stable vs Nightly) are documented here: [docs/Installation.md](docs/Installation.md)
+
 #### Stable version
 
 The Stable version is available on the Official Fluent Search website which can be found [**here**](https://fluentsearch.net). Click on `Download` and choose the preferred Installer file to get the Fluent Search.
 
 #### Nightly version (Previously called Alpha)
-Nightly versions are updated daily, and most likely to contain bugs. You can update to Nightly version by changing Settings -> System -> Release feed -> Nightly.
+Nightly versions are updated daily, and most likely to contain bugs. You can update to Nightly version by changing Settings -> System -> Updates -> Release feed -> Nightly.
+
+Note: Downgrading back to Stable via the release feed isn’t currently supported; reinstall a Stable build to return to Stable.
 
 To download Nightly versions without updating from Stable:
 |                 | X64                                                                                                    | ARM64                                                                                                   |

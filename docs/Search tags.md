@@ -9,8 +9,8 @@ Fluent Search offers **Search Tags** as a powerful way to refine search results 
 Search tags act as filters that help narrow down search results within Fluent Search. Instead of searching broadly, adding a search tag ensures that only relevant results are displayed.
 
 For example:
-- Searching `"report.pdf"` might show many results, including web suggestions and applications.
-- Searching **`pdf: report.pdf`** ensures only pdf files results appear.
+- Searching `report` might show apps, files, and web suggestions.
+- Searching **`.pdf`** as a tag focuses results on PDF files.
 
 <img alt="Fluent Search PDF Search Tag" src="/docs/images/PdfSearchTagLight.webp" width="600" height="auto">
 
@@ -24,12 +24,14 @@ Using search tags is simple:
 
 You can combine multiple tags to refine results further.
 
+Tip: You can also focus the Search Tags area using **`Alt + T`** (default) and pick tags from there.
+
 ### Viewing Available Tags
 
 <img alt="Fluent Search Search Tags Settings" src="/docs/images/SearchTagsSettingsLight.webp" width="800" height="auto">
 
 Fluent Search provides multiple ways to see available and supported tags:
-- Each **Search Application** setting page lists all the relevant tags it supports.
+- Each **Search App** settings page lists the relevant tags it supports.
 - The **Search Tags** page (`Settings > Search tags`) shows all available search tags.
 - Clicking on a tag in the settings takes you to the respective configuration page, where you can modify or disable it.
 
@@ -46,9 +48,9 @@ Fluent Search allows full customization of search tags:
 Here are some real-world scenarios where search tags can enhance your experience:
 
 #### Searching for Specific Content
-- **`files:`** → Search only for files on your computer.
-- **`history:`** → Search through your browser history.
-- **`google:`** → Perform a Google web search directly from Fluent Search.
+- **`Files`** → Search files and folders.
+- **`History`** → Search through browser history.
+- **`Web`** (or a specific web engine tag) → Perform a web search.
 
 #### Searching Inside Specific Folders
 
@@ -66,7 +68,7 @@ Here are some real-world scenarios where search tags can enhance your experience
     - `videos:` → Filters only video files (MP4, AVI, etc.).
 
 #### Searching Browsing History for Specific Sites
-- Type a website URL (e.g., `https://docs.microsoft.com`), press `TAB`, and Fluent Search will search your browsing history for all pages from that site.
+- Type a website URL (e.g., `https://learn.microsoft.com`), press `TAB`, and Fluent Search can use it as a focused search value depending on which Search App handles the tag.
 
 ### Customizing Search Tags
 

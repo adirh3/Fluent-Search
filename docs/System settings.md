@@ -30,7 +30,7 @@ Optimize Fluent Search's performance based on your system's capabilities:
 
 Keep your Fluent Search settings consistent across devices:
 
-- **Settings Sync with OneDrive**: Enable this feature to synchronize your configurations using your OneDrive account, ensuring a seamless experience across multiple devices.
+- **Settings Sync with OneDrive**: Enable this feature to synchronize your Fluent Search settings using your OneDrive account, ensuring a seamless experience across multiple devices.
 - **Import/Export Settings**: Manually back up or transfer your settings by exporting them to a file, which can then be imported on another device or after a system reset.
 
 ### Update Preferences
@@ -40,6 +40,7 @@ Manage how Fluent Search updates on your system:
 - **Release Feed**: Choose between:
     - **Stable**: Receives thoroughly tested updates, ensuring reliability.
     - **Nightly (Beta)**: Accesses the latest features and improvements, though they may be less stable. Note that this option is not available if Fluent Search is installed via the Microsoft Store.
+    - **Important**: Downgrading from Nightly back to Stable isn’t currently supported via the release feed. To return to Stable, reinstall a Stable build.
 - **Auto Update**: When enabled, Fluent Search will silently install updates in the background, keeping the application up-to-date without manual intervention.
 
 By configuring these system settings, you can tailor Fluent Search to align with your workflow and system requirements, ensuring an efficient and personalized user experience. 
