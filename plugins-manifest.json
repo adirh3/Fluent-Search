@@ -376,5 +376,19 @@
     "IconUrl": null,
     "IconGlyph": "",
     "IconBase64": null
+  },
+  {
+    "PluginType": "Dotnet",
+    "Name": "EnvVarExplorer",
+    "DisplayName": "Environment Variables",
+    "Description": "Search system and user environment variables by name or value. Copy, edit, create, and explore PATH entries.",
+    "PublisherName": "adirh3",
+    "Version": "1.0.0.0",
+    "MinimumFluentSearchVersion": null,
+    "URL": "https://github.com/adirh3/EnvVarExplorer.Fluent.Plugin",
+    "DownloadURL": "https://stfluentsearch.blob.core.windows.net/fluent-search-plugins/EnvVarExplorer.Fluent.Plugin.1.0.0.0.zip",
+    "IconUrl": null,
+    "IconGlyph": "",
+    "IconBase64": null
   }
 ]
