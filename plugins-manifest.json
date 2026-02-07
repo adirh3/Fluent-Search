@@ -150,7 +150,7 @@
     "URL": "https://github.com/adirh3/Fluent-Search-Tasks/tree/main/Utilities/Color%20preview",
     "DownloadURL": "https://raw.githubusercontent.com/adirh3/Fluent-Search-Tasks/refs/heads/main/Utilities/Color%20preview/Color%20preview.yaml",
     "IconUrl": null,
-    "IconGlyph": "\uE790",
+    "IconGlyph": "",
     "IconBase64": null
   },
   {
@@ -333,6 +333,20 @@
     "DownloadURL": "https://stfluentsearch.blob.core.windows.net/fluent-search-plugins/TimerStopwatch.Fluent.Plugin.1.0.0.0.zip",
     "IconUrl": null,
     "IconGlyph": "",
+    "IconBase64": null
+  },
+  {
+    "PluginType": "Dotnet",
+    "Name": "RegistryManager",
+    "DisplayName": "Registry Manager",
+    "Description": "Search and manage Windows Registry keys and values",
+    "PublisherName": "adirh3",
+    "Version": "1.0.0.0",
+    "MinimumFluentSearchVersion": null,
+    "URL": "https://github.com/adirh3/RegistryManager.Fluent.Plugin",
+    "DownloadURL": "https://stfluentsearch.blob.core.windows.net/fluent-search-plugins/RegistryManager.Fluent.Plugin.1.0.0.0.zip",
+    "IconUrl": null,
+    "IconGlyph": "\\uE713",
     "IconBase64": null
   }
 ]
