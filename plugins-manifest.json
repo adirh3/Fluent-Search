@@ -334,5 +334,19 @@
     "IconUrl": null,
     "IconGlyph": "",
     "IconBase64": null
+  },
+  {
+    "PluginType": "Dotnet",
+    "Name": "RegistryManager",
+    "DisplayName": "Registry Manager",
+    "Description": "Search and manage Windows Registry keys and values",
+    "PublisherName": "adirh3",
+    "Version": "1.0.0.0",
+    "MinimumFluentSearchVersion": null,
+    "URL": "https://github.com/adirh3/RegistryManager.Fluent.Plugin",
+    "DownloadURL": "https://stfluentsearch.blob.core.windows.net/fluent-search-plugins/RegistryManager.Fluent.Plugin.1.0.0.0.zip",
+    "IconUrl": null,
+    "IconGlyph": "\uE713",
+    "IconBase64": null
   }
 ]
