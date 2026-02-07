@@ -362,5 +362,19 @@
     "IconUrl": null,
     "IconGlyph": "",
     "IconBase64": null
+  },
+  {
+    "PluginType": "Dotnet",
+    "Name": "QuickNotes",
+    "DisplayName": "Quick Notes",
+    "Description": "Quickly create, search and manage lightweight notes from your search bar",
+    "PublisherName": "adirh3",
+    "Version": "1.0.0.0",
+    "MinimumFluentSearchVersion": null,
+    "URL": "https://github.com/adirh3/QuickNotes.Fluent.Plugin",
+    "DownloadURL": "https://stfluentsearch.blob.core.windows.net/fluent-search-plugins/QuickNotes.Fluent.Plugin.1.0.0.0.zip",
+    "IconUrl": null,
+    "IconGlyph": "",
+    "IconBase64": null
   }
 ]
