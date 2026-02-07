@@ -354,13 +354,13 @@
     "Name": "EmojiPicker",
     "DisplayName": "Emoji \u0026 Symbol Picker",
     "Description": "Search and copy emojis, kaomoji, special symbols, math operators, arrows, and currency signs by keyword",
-    "PublisherName": "Adir Hamami",
+    "PublisherName": "adirh3",
     "Version": "1.0.0.0",
     "MinimumFluentSearchVersion": null,
     "URL": "https://github.com/adirh3/EmojiPicker.Fluent.Plugin",
     "DownloadURL": "https://stfluentsearch.blob.core.windows.net/fluent-search-plugins/EmojiPicker.Fluent.Plugin.1.0.0.0.zip",
     "IconUrl": null,
-    "IconGlyph": "\\uE76E",
+    "IconGlyph": "",
     "IconBase64": null
   }
 ]
