@@ -320,5 +320,19 @@
     "IconUrl": null,
     "IconGlyph": "",
     "IconBase64": null
+  },
+  {
+    "PluginType": "Dotnet",
+    "Name": "TimerStopwatch",
+    "DisplayName": "Timer / Stopwatch",
+    "Description": "Timer and stopwatch controls for Fluent Search",
+    "PublisherName": "adirh",
+    "Version": "1.0.0.0",
+    "MinimumFluentSearchVersion": null,
+    "URL": "https://github.com/adirh3/TimerStopwatch.Fluent.Plugin",
+    "DownloadURL": "https://stfluentsearch.blob.core.windows.net/fluent-search-plugins/TimerStopwatch.Fluent.Plugin.1.0.0.0.zip",
+    "IconUrl": null,
+    "IconGlyph": "",
+    "IconBase64": null
   }
 ]
