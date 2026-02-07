@@ -390,5 +390,19 @@
     "IconUrl": null,
     "IconGlyph": "",
     "IconBase64": null
+  },
+  {
+    "PluginType": "Dotnet",
+    "Name": "JwtDecode",
+    "DisplayName": "JWT Decoder",
+    "Description": "Decode and inspect JWT tokens - view header, payload claims, expiration status, and copy individual values",
+    "PublisherName": "adirh3",
+    "Version": "1.0.0.0",
+    "MinimumFluentSearchVersion": null,
+    "URL": "https://github.com/adirh3/JwtDecode.Fluent.Plugin",
+    "DownloadURL": "https://stfluentsearch.blob.core.windows.net/fluent-search-plugins/JwtDecode.Fluent.Plugin.1.0.0.0.zip",
+    "IconUrl": null,
+    "IconGlyph": "",
+    "IconBase64": null
   }
 ]
