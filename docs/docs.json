@@ -10,63 +10,127 @@
       "Link": "docs/Installation.html"
     },
     {
-      "Name": "Privacy",
-      "Link": "docs/Privacy.html"
-    },
-    {
       "Name": "Hotkeys",
       "Link": "docs/Hotkeys.html"
-    },
-    {
-      "Name": "Gaming mode",
-      "Link": "docs/Gaming mode.html"
-    },
-    {
-      "Name": "Search tags",
-      "Link": "docs/Search tags.html"
-    },
-    {
-      "Name": "Result preview",
-      "Link": "docs/Result preview.html"
-    },
-    {
-      "Name": "Search options",
-      "Link": "docs/Search options.html"
-    },
-    {
-      "Name": "System settings",
-      "Link": "docs/System settings.html"
-    },
-    {
-      "Name": "AI Search",
-      "Link": "docs/AI Search.html"
-    },
-    {
-      "Name": "Quick Menu",
-      "Link": "docs/Quick Menu.html"
-    },
-    {
-      "Name": "Accessibility",
-      "Link": "docs/Accessibility.html"
-    },
-    {
-      "Name": "Context Manager",
-      "Link": "docs/Context Manager.html"
-    },
-    {
-      "Name": "Process History",
-      "Link": "docs/Process History.html"
-    },
-    {
-      "Name": "Settings Sync",
-      "Link": "docs/Settings Sync.html"
-    },
-    {
-      "Name": "Microsoft Account",
-      "Link": "docs/Microsoft Account.html"
     }
   ],
   "Folders": [
+    {
+      "FolderName": "Search",
+      "Docs": [
+        {
+          "Name": "Search options",
+          "Link": "docs/Search options.html"
+        },
+        {
+          "Name": "Search tags",
+          "Link": "docs/Search tags.html"
+        },
+        {
+          "Name": "AI Search",
+          "Link": "docs/AI Search.html"
+        },
+        {
+          "Name": "Result preview",
+          "Link": "docs/Result preview.html"
+        },
+        {
+          "Name": "Quick Menu",
+          "Link": "docs/Quick Menu.html"
+        }
+      ]
+    },
+    {
+      "FolderName": "Search apps",
+      "Docs": [
+        {
+          "Name": "General",
+          "Link": "docs/Search apps/Search Apps General.html"
+        },
+        {
+          "Name": "Apps",
+          "Link": "docs/Search apps/Apps.html"
+        },
+        {
+          "Name": "Files",
+          "Link": "docs/Search apps/Files.html"
+        },
+        {
+          "Name": "Browser",
+          "Link": "docs/Search apps/Browser.html"
+        },
+        {
+          "Name": "Web",
+          "Link": "docs/Search apps/Web.html"
+        },
+        {
+          "Name": "Commands",
+          "Link": "docs/Search apps/Commands.html"
+        },
+        {
+          "Name": "Windows",
+          "Link": "docs/Search apps/Windows.html"
+        },
+        {
+          "Name": "Settings",
+          "Link": "docs/Search apps/Settings.html"
+        },
+        {
+          "Name": "Calculator",
+          "Link": "docs/Search apps/Calculator.html"
+        },
+        {
+          "Name": "In-window search",
+          "Link": "docs/Search apps/In-window search.html"
+        },
+        {
+          "Name": "To Do",
+          "Link": "docs/Search apps/To Do.html"
+        }
+      ]
+    },
+    {
+      "FolderName": "Screen search",
+      "Docs": [
+        {
+          "Name": "General",
+          "Link": "docs/Screen search/Screen Search.html"
+        },
+        {
+          "Name": "Advanced usage",
+          "Link": "docs/Screen search/Advanced usage.html"
+        },
+        {
+          "Name": "Customization",
+          "Link": "docs/Screen search/Customization.html"
+        },
+        {
+          "Name": "OCR",
+          "Link": "docs/Screen search/OCR.html"
+        }
+      ]
+    },
+    {
+      "FolderName": "Features",
+      "Docs": [
+        {
+          "Name": "Context Manager",
+          "Link": "docs/Context Manager.html"
+        },
+        {
+          "Name": "Process History",
+          "Link": "docs/Process History.html"
+        },
+        {
+          "Name": "Gaming mode",
+          "Link": "docs/Gaming mode.html"
+        },
+        {
+          "Name": "Accessibility",
+          "Link": "docs/Accessibility.html"
+        }
+      ]
+    },
     {
       "FolderName": "Tasks",
       "Docs": [
@@ -257,19 +321,6 @@
       ]
     },
     {
-      "FolderName": "Customization",
-      "Docs": [
-        {
-          "Name": "Personalization",
-          "Link": "docs/Customization/Personalization.html"
-        },
-        {
-          "Name": "Contributing themes",
-          "Link": "docs/Customization/Contributing themes.html"
-        }
-      ]
-    },
-    {
       "FolderName": "Plugins",
       "Docs": [
         {
@@ -369,72 +420,36 @@
       ]
     },
     {
-      "FolderName": "Screen search",
+      "FolderName": "Customization",
       "Docs": [
         {
-          "Name": "General",
-          "Link": "docs/Screen search/Screen Search.html"
+          "Name": "Personalization",
+          "Link": "docs/Customization/Personalization.html"
         },
         {
-          "Name": "Advanced usage",
-          "Link": "docs/Screen search/Advanced usage.html"
-        },
-        {
-          "Name": "Customization",
-          "Link": "docs/Screen search/Customization.html"
-        },
-        {
-          "Name": "OCR",
-          "Link": "docs/Screen search/OCR.html"
+          "Name": "Contributing themes",
+          "Link": "docs/Customization/Contributing themes.html"
         }
       ]
     },
     {
-      "FolderName": "Search apps",
+      "FolderName": "Settings & Account",
       "Docs": [
         {
-          "Name": "General",
-          "Link": "docs/Search apps/Search Apps General.html"
+          "Name": "System settings",
+          "Link": "docs/System settings.html"
         },
         {
-          "Name": "Apps",
-          "Link": "docs/Search apps/Apps.html"
+          "Name": "Settings Sync",
+          "Link": "docs/Settings Sync.html"
         },
         {
-          "Name": "Files",
-          "Link": "docs/Search apps/Files.html"
+          "Name": "Microsoft Account",
+          "Link": "docs/Microsoft Account.html"
         },
         {
-          "Name": "Browser",
-          "Link": "docs/Search apps/Browser.html"
-        },
-        {
-          "Name": "Commands",
-          "Link": "docs/Search apps/Commands.html"
-        },
-        {
-          "Name": "Web",
-          "Link": "docs/Search apps/Web.html"
-        },
-        {
-          "Name": "Windows",
-          "Link": "docs/Search apps/Windows.html"
-        },
-        {
-          "Name": "Settings",
-          "Link": "docs/Search apps/Settings.html"
-        },
-        {
-          "Name": "Calculator",
-          "Link": "docs/Search apps/Calculator.html"
-        },
-        {
-          "Name": "In-window search",
-          "Link": "docs/Search apps/In-window search.html"
-        },
-        {
-          "Name": "To Do",
-          "Link": "docs/Search apps/To Do.html"
+          "Name": "Privacy",
+          "Link": "docs/Privacy.html"
         }
       ]
     }
