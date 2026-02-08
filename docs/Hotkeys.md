@@ -1,66 +1,151 @@
 ## Hotkeys in Fluent Search
 
-Fluent Search offers a robust hotkey system to enhance productivity and streamline your workflow. Setting up a few “muscle memory” shortcuts is often the biggest speed-up you can get.
+Fluent Search offers a comprehensive hotkey system that lets you control the app, navigate results, trigger actions on results, and jump into specific Search Apps — all from the keyboard. Setting up a few "muscle memory" shortcuts is often the single biggest productivity boost you can get from Fluent Search.
 
-### Types of Hotkeys
+---
 
-Fluent Search provides two primary types of hotkeys:
+### Types of hotkeys
 
-1. **Hotkeys**: These can be activated from anywhere, regardless of which application is in focus.
-2. **Keyboard Gestures**: These are specific to Fluent Search and function only when the Fluent Search window is active.
+Fluent Search provides two categories of keyboard shortcuts:
 
-Most people only need a handful:
+1. **Global Hotkeys** — Work from anywhere in Windows, regardless of which application is in focus. These are registered system-wide.
+2. **Keyboard Gestures** — Work only when the Fluent Search window is active. These control navigation, preview, result actions, and other in-window behaviors.
 
-- **Search (search anything)**: `Ctrl + Alt` (default)
-- **In-window search**: `Ctrl + Alt + Shift` (default)
-- **Focus Search Tags**: `Alt + T` (default)
-- **Toggle Preview**: `Alt + P` (default)
+---
 
-### Accessing and Configuring Hotkeys
+### Default global hotkeys
+
+| Action | Default Shortcut | Description |
+|---|---|---|
+| **Open Fluent Search** | `Ctrl + Alt` | Opens or closes the main search window |
+| **In-window search** | `Ctrl + Alt + Shift` | Searches inside the currently focused application |
+| **Screen search** | `Ctrl + M` | Launches screen search across the entire screen |
+| **Screen search (focused window)** | *(configurable)* | Launches screen search only on the focused window |
+| **Quick Menu** | *(configurable)* | Opens the Quick Menu for pinned tags and recent results |
+
+You can also assign global hotkeys to:
+
+- **Individual Search Apps** — Open Fluent Search pre-scoped to Files, Browser, Web, or any other Search App
+- **Specific Search Tags** — Open Fluent Search with a tag already applied
+- **App Hotkeys** — Launch or switch to a specific application (for example, assign `Win + G` to Google Chrome)
+
+**Win key combinations** (such as `Win + F`, `Win + G`, `Win + Space`) are supported as hotkey assignments.
+
+---
+
+### Default keyboard gestures (in-window)
 
 <img alt="Fluent Search Window" src="/docs/images/HotkeysSettingsLight.webp" width="700" height="auto">
+
+These shortcuts work when the Fluent Search window is focused:
+
+| Action | Default Shortcut |
+|---|---|
+| Navigate results | `↑ / ↓` |
+| Open / activate result | `Enter` |
+| Insert search tag | `Tab` |
+| Close window / cancel | `Esc` |
+| Focus search tags area | `Alt + T` |
+| Toggle inline preview | `Alt + P` |
+| Open preview in separate window | `Shift + Enter` |
+| Pin / unpin result to home screen | `Ctrl + Alt + P` |
+| Run as administrator | `Ctrl + Shift + Enter` |
+
+---
+
+### Result operation hotkeys
+
+Each Search App defines its own set of keyboard shortcuts for acting on results. These work when a result from that app is selected. Here are the most common ones:
+
+#### Files
+
+| Action | Shortcut |
+|---|---|
+| Open file / folder | `Ctrl + 1` |
+| Open parent folder | `Ctrl + 2` |
+| Open in command line | `Ctrl + 3` |
+| Open with... | `Ctrl + 4` |
+| Copy file | `Ctrl + 5` |
+| Copy file path | `Ctrl + C` |
+| Search in parent folder | `Ctrl + R` |
+| Share | `Ctrl + Shift + S` |
+| Rename | `F2` |
+| Delete (recycle bin) | `Delete` |
+| Permanently delete | `Shift + Delete` |
+
+#### Apps
+
+| Action | Shortcut |
+|---|---|
+| Open app | `Ctrl + 1` |
+| Open app as administrator | `Ctrl + Shift + Enter` |
+| Open app folder | `Ctrl + 2` |
+| Uninstall app | `Ctrl + 3` |
+
+#### Browser
+
+| Action | Shortcut |
+|---|---|
+| Open webpage | `Ctrl + 1` |
+| Copy URL | `Ctrl + C` |
+| Search URL | `Ctrl + E` |
+
+#### Windows / Processes
+
+| Action | Shortcut |
+|---|---|
+| Switch to window | `Ctrl + 1` |
+| Open process folder | `Ctrl + 2` |
+| Open new instance | `Ctrl + N` |
+| Close window | `Delete` |
+| Kill process | `Shift + Delete` |
+
+#### Screen Search
+
+| Action | Shortcut |
+|---|---|
+| Single click | `1` (then type label) |
+| Double click | `2` (then type label) |
+| Select text | `3` (then type label) |
+| Right click | `4` (then type label) |
+| Move mouse | `5` (then type label) |
+
+---
+
+### Configuring hotkeys
 
 To view and modify hotkeys:
 
 1. Open Fluent Search.
-2. Navigate to `Settings` > `Hotkeys`.
+2. Navigate to **Settings → Hotkeys**.
 
-Here, you can assign or change hotkeys for various functions, including launching Fluent Search modes, opening Search Apps directly, and triggering operations on results.
+From there you can:
 
-### Assigning Global Hotkeys to Search Apps and Tags
+- **Reassign any global hotkey** — click the shortcut field and press your desired key combination
+- **Add Search App hotkeys** — assign a hotkey to open Fluent Search scoped to a specific Search App
+- **Add Search Tag hotkeys** — assign a hotkey to open Fluent Search with a specific tag applied
+- **Set App Hotkeys** — assign hotkeys to launch or focus specific applications
+- **Configure operation hotkeys** — change the keyboard shortcuts for result actions within each Search App
 
-You can set up global hotkeys to quickly access specific Search Apps or apply tags:
+---
 
-1. In the `Hotkeys` settings, select the desired Search App or tag.
-2. Assign a unique key combination.
+### Gaming mode (hotkey suppression)
 
-This setup allows you to, for example, press a specific key combination to jump straight into Files search or open Fluent Search already filtered to Browser history.
+Fluent Search can suppress its hotkeys to avoid accidental popups during gaming, presentations, or remote desktop sessions:
 
-### Managing Hotkeys in Specific Scenarios
+- **Ignore hotkeys in full-screen applications** — Automatically disables all global hotkeys when a full-screen window is focused
+- **Ignore hotkeys for specific processes** — Add process names (for example, `game.exe`, `obs64.exe`, `mstsc.exe`) that should suppress Fluent Search hotkeys
 
-Fluent Search offers flexibility to prevent hotkeys from interfering with other activities:
+When hotkey suppression is active, Fluent Search completely unregisters the hotkeys (rather than just blocking them), which prevents any input lag. The system tray icon changes to indicate gaming mode is active.
 
-- **Ignoring Hotkeys in Full-Screen Applications**: Enable this setting to disable hotkeys when running full-screen applications, such as games or video players.
-- **Ignoring Hotkeys for Specific Processes**: Specify process names for which hotkeys should be disabled.
+These options are found in **Settings → Hotkeys**. For more details, see [Gaming mode](Gaming%20mode.md).
 
-These options effectively act as **Gaming mode**. See [Gaming mode](Gaming%20mode.md) for practical recommendations and troubleshooting.
+---
 
 ### Tips
 
-- Prefer combinations you don’t use elsewhere (for example: `Ctrl + Alt + Space`).
-- Avoid common app shortcuts (for example: `Ctrl + Shift + P`).
-- After changing a hotkey, try it in a few contexts (desktop, browser, IDE, full-screen) to confirm it behaves the way you want.
-
-Activating these settings puts Fluent Search into a more “hands off” mode, preventing accidental popups during full-screen apps (games, presentations, remote sessions).
-
-### Important Considerations
-
-When configuring hotkeys, keep these rules of thumb in mind:
-
-- Prefer combinations you don’t use elsewhere (for example: `Ctrl + Alt + Space`).
-- Avoid common app shortcuts (for example: `Ctrl + Shift + P`).
-- If a hotkey is already taken by another tool, Fluent Search may not receive it.
-
-After changing a hotkey, try it in a few contexts (desktop, browser, IDE, full-screen) to confirm it behaves the way you want.
-
-By customizing hotkeys to fit your workflow, Fluent Search becomes a more powerful and efficient tool, tailored to your specific needs. 
+- **Pick unique combinations** — avoid shortcuts commonly used by other apps (like `Ctrl + Shift + P` in VS Code). Good choices include `Ctrl + Alt + Space` or `Win + F`.
+- **Test across contexts** — after changing a hotkey, try it on the desktop, in a browser, in your IDE, and in full-screen mode to confirm it works everywhere you need it.
+- **Create "jump in" hotkeys** — if you search files frequently, assign a dedicated hotkey that opens Fluent Search already scoped to the Files Search App.
+- **Use App Hotkeys for quick switching** — assign hotkeys to your most-used applications for instant launch or focus, similar to a dock.
+- **If a hotkey stops working** — check whether you're in a borderless-fullscreen app (these can count as full-screen for suppression purposes), and review your gaming mode settings.

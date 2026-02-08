@@ -1,39 +1,75 @@
-## Enhancing Screen Search with OCR in Fluent Search
+## Screen Search with OCR
 
-Fluent Search's **Screen Search** feature is designed to help you navigate your computer seamlessly using just your keyboard. To further enhance this experience, Fluent Search integrates Optical Character Recognition (OCR), allowing you to search and interact with on-screen text that isn't typically selectable.
+Fluent Search's Screen Search feature can use **Optical Character Recognition (OCR)** to detect and interact with text displayed on your screen — even text that isn't normally selectable, such as text inside images, videos, screenshots, or applications that don't expose their content through accessibility APIs.
+
+---
 
 ### What is OCR in Screen Search?
 
-OCR stands for Optical Character Recognition. In the context of Fluent Search, it enables the system to recognize and extract text from images or areas of the screen, making even non-interactive text searchable and actionable. This is particularly useful for accessing text within images, videos, or applications where text selection is not possible.
+OCR analyzes the visual content of your screen and recognizes readable text from the pixels. This means Fluent Search can:
+
+- Find and interact with text in images, PDFs rendered as images, or screenshots
+- Detect text in applications that don't use standard Windows UI controls
+- Search for on-screen text across any application, regardless of how the text is rendered
+
+OCR complements the standard Screen Search engines (Image Recognition and UI Automation) by adding text-based search capabilities.
+
+---
+
+### Enabling OCR
+
+1. Open Fluent Search settings: **Settings → Screen → OCR**
+2. Enable **Search using OCR**
+3. Set your **default OCR language**
+
+OCR uses the **Windows built-in OCR engine**, which supports multiple languages based on what's installed on your system.
+
+---
 
 ### Using OCR with Screen Search
 
-To utilize OCR within Screen Search:
+Once enabled, OCR is integrated into Screen Search automatically:
 
-1. **Activate Screen Search**:
-    - Press `Ctrl + M` to initiate Screen Search.
+1. **Activate Screen Search** (default: `Ctrl + M`)
+2. **Type text** that appears on your screen — OCR matches are included in the results alongside standard UI element detection
+3. **Select a match** to click at that text's location on screen
 
-2. **Search On-Screen Text**:
-    - Type your query prefixed with the `Screen` tag (e.g., `Screen: your search term`).
-    - Fluent Search will process the visible screen content, extracting and matching text based on your query.
+You can also use OCR with the `Screen` search tag:
+- Type `Screen` + `Tab` → type the text you want to find on screen
 
-### Configuring OCR Settings
+---
 
-To tailor the OCR functionality to your needs:
+### OCR language settings
 
-1. **Access OCR Settings**:
-    - Press `Ctrl + Alt` to open Fluent Search.
-    - Type `settings` and press `Enter`.
-    - Navigate to `Screen` > `OCR`.
+| Setting | Description | Default |
+|---|---|---|
+| **Default OCR language** | The primary language for text recognition | First available system language |
+| **Add OCR language tags** | Creates search tags for each installed OCR language, allowing language-specific searching | Off |
 
-2. **Set Default OCR Language**:
-    - Choose your preferred language for text recognition. This ensures that OCR processes text accurately based on the selected language.
+#### Multi-language OCR
 
-3. **Enable OCR Language Tags**:
-    - If you work with multiple languages, you can enable the "Add OCR language tags" option. This allows you to specify the language for a particular search by using language-specific tags (e.g., `Screen:fr: votre terme de recherche` for French).
+If you work with text in multiple languages, enable **Add OCR language tags**. This creates a search tag for each installed language (for example, `en-US`, `fr-FR`, `ja-JP`), letting you specify which language to use for a particular search:
 
-By configuring these settings, Fluent Search's OCR feature becomes a powerful tool, enabling you to interact with and search through all visible text on your screen, thereby enhancing your productivity and accessibility.
+- `ocr en-US` + `Tab` → search using English OCR
+- `ocr fr-FR` + `Tab` → search using French OCR
 
-For a visual demonstration of using search tags in Fluent Search, you may find the following video helpful:
+---
 
-[Fluent Search - Search Tags](https://www.youtube.com/watch?v=PaHmkBTHwew) 
+### Installing additional OCR languages
+
+OCR language support depends on what's installed in Windows:
+
+1. Open **Windows Settings → Time & Language → Language & Region**
+2. Add the language you need
+3. Ensure the language's **OCR** feature is installed (under language options)
+
+Once installed, the language becomes available in Fluent Search's OCR settings.
+
+---
+
+### Tips
+
+- OCR works best with clearly rendered, reasonably sized text. Very small text, heavily stylized fonts, or low-contrast text may not be recognized reliably.
+- Combine OCR with the standard Screen Search engines (Image Recognition + UI Automation) for the most complete detection — Auto mode does this automatically.
+- OCR is especially useful in scenarios like: remote desktop sessions (where UI Automation may not work), custom-drawn application UIs, PDF viewers, and image annotations.
+- For more information on Screen Search, see [Screen Search](Screen%20Search.md) and [Advanced usage](Advanced%20usage.md).

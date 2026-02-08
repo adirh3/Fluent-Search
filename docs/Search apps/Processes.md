@@ -1,7 +1,5 @@
 ## Processes Search App
 
-This page is kept for backwards compatibility.
+This page has been merged into the **Windows** Search App documentation.
 
-The Search App previously documented as **Processes** is now documented as **Windows**.
-
-See [Windows.md](Windows.md).
+See [Windows](Windows.md).

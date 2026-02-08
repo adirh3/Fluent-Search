@@ -36,6 +36,34 @@
     {
       "Name": "System settings",
       "Link": "docs/System settings.html"
+    },
+    {
+      "Name": "AI Search",
+      "Link": "docs/AI Search.html"
+    },
+    {
+      "Name": "Quick Menu",
+      "Link": "docs/Quick Menu.html"
+    },
+    {
+      "Name": "Accessibility",
+      "Link": "docs/Accessibility.html"
+    },
+    {
+      "Name": "Context Manager",
+      "Link": "docs/Context Manager.html"
+    },
+    {
+      "Name": "Process History",
+      "Link": "docs/Process History.html"
+    },
+    {
+      "Name": "Settings Sync",
+      "Link": "docs/Settings Sync.html"
+    },
+    {
+      "Name": "Microsoft Account",
+      "Link": "docs/Microsoft Account.html"
     }
   ],
   "Folders": [
@@ -70,6 +98,18 @@
             {
               "Name": "Hotkey",
               "Link": "docs/Tasks/Triggers/Hotkey.html"
+            },
+            {
+              "Name": "Process switched",
+              "Link": "docs/Tasks/Triggers/Process switched.html"
+            },
+            {
+              "Name": "Condition",
+              "Link": "docs/Tasks/Triggers/Condition.html"
+            },
+            {
+              "Name": "For each",
+              "Link": "docs/Tasks/Triggers/For each.html"
             }
           ]
         },
@@ -93,40 +133,8 @@
               "Link": "docs/Tasks/Operations/Custom operation.html"
             },
             {
-              "Name": "Hide search window",
-              "Link": "docs/Tasks/Operations/Hide search window.html"
-            },
-            {
-              "Name": "Show window",
-              "Link": "docs/Tasks/Operations/Show window.html"
-            },
-            {
-              "Name": "Show and search",
-              "Link": "docs/Tasks/Operations/Show and search.html"
-            },
-            {
-              "Name": "Switch Process",
-              "Link": "docs/Tasks/Operations/Switch Process.html"
-            },
-            {
-              "Name": "Delay",
-              "Link": "docs/Tasks/Operations/Delay.html"
-            },
-            {
-              "Name": "Press keys combo",
-              "Link": "docs/Tasks/Operations/Press keys combo.html"
-            },
-            {
-              "Name": "Type text",
-              "Link": "docs/Tasks/Operations/Type text.html"
-            },
-            {
-              "Name": "PS Script",
-              "Link": "docs/Tasks/Operations/PS Script.html"
-            },
-            {
-              "Name": "C# Script",
-              "Link": "docs/Tasks/Operations/C# Script.html"
+              "Name": "Invoke result",
+              "Link": "docs/Tasks/Operations/Invoke result.html"
             },
             {
               "Name": "HTTP Action",
@@ -137,6 +145,10 @@
               "Link": "docs/Tasks/Operations/Open URL.html"
             },
             {
+              "Name": "Get web image",
+              "Link": "docs/Tasks/Operations/Get web image.html"
+            },
+            {
               "Name": "Open",
               "Link": "docs/Tasks/Operations/Open.html"
             },
@@ -145,8 +157,100 @@
               "Link": "docs/Tasks/Operations/Open Parent Folder.html"
             },
             {
+              "Name": "Create file",
+              "Link": "docs/Tasks/Operations/Create file.html"
+            },
+            {
+              "Name": "Read file text",
+              "Link": "docs/Tasks/Operations/Read file text.html"
+            },
+            {
+              "Name": "Open file or folder dialog",
+              "Link": "docs/Tasks/Operations/Open file or folder dialog.html"
+            },
+            {
+              "Name": "Get selected file in file manager",
+              "Link": "docs/Tasks/Operations/Get selected file in file manager.html"
+            },
+            {
+              "Name": "Switch Process",
+              "Link": "docs/Tasks/Operations/Switch Process.html"
+            },
+            {
+              "Name": "Invoke UI Element",
+              "Link": "docs/Tasks/Operations/Invoke UI Element.html"
+            },
+            {
+              "Name": "Get context",
+              "Link": "docs/Tasks/Operations/Get context.html"
+            },
+            {
+              "Name": "Set context",
+              "Link": "docs/Tasks/Operations/Set context.html"
+            },
+            {
+              "Name": "Press keys combo",
+              "Link": "docs/Tasks/Operations/Press keys combo.html"
+            },
+            {
+              "Name": "Type text",
+              "Link": "docs/Tasks/Operations/Type text.html"
+            },
+            {
+              "Name": "C# Script",
+              "Link": "docs/Tasks/Operations/C# Script.html"
+            },
+            {
+              "Name": "PS Script",
+              "Link": "docs/Tasks/Operations/PS Script.html"
+            },
+            {
+              "Name": "Parse JSON",
+              "Link": "docs/Tasks/Operations/Parse JSON.html"
+            },
+            {
+              "Name": "Play audio file",
+              "Link": "docs/Tasks/Operations/Play audio file.html"
+            },
+            {
+              "Name": "Set search result sound",
+              "Link": "docs/Tasks/Operations/Set search result sound.html"
+            },
+            {
+              "Name": "Text to speech",
+              "Link": "docs/Tasks/Operations/Text to speech.html"
+            },
+            {
+              "Name": "Delay",
+              "Link": "docs/Tasks/Operations/Delay.html"
+            },
+            {
               "Name": "Copy text",
               "Link": "docs/Tasks/Operations/Copy text.html"
+            },
+            {
+              "Name": "Get clipboard text",
+              "Link": "docs/Tasks/Operations/Get clipboard text.html"
+            },
+            {
+              "Name": "Keep variable",
+              "Link": "docs/Tasks/Operations/Keep variable.html"
+            },
+            {
+              "Name": "Show window",
+              "Link": "docs/Tasks/Operations/Show window.html"
+            },
+            {
+              "Name": "Show and search",
+              "Link": "docs/Tasks/Operations/Show and search.html"
+            },
+            {
+              "Name": "Hide search window",
+              "Link": "docs/Tasks/Operations/Hide search window.html"
+            },
+            {
+              "Name": "Show notification",
+              "Link": "docs/Tasks/Operations/Show notification.html"
             }
           ]
         }
@@ -327,6 +431,10 @@
         {
           "Name": "In-window search",
           "Link": "docs/Search apps/In-window search.html"
+        },
+        {
+          "Name": "To Do",
+          "Link": "docs/Search apps/To Do.html"
         }
       ]
     }

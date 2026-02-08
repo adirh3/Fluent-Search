@@ -1,14 +1,16 @@
-# Condition
+# Condition (operation)
 
 **Type:** `Condition`
 
-Gates the chain based on a boolean expression.
+The Condition node gates the chain based on a boolean expression. It can be used mid-flow to conditionally continue or stop execution.
 
-## Common settings
+For full documentation, see the [Condition trigger](../Triggers/Condition.md) page.
 
-- **value**: C#-style expression that returns `true`/`false`.
-- **continueIfTrue**: Whether the chain continues.
+---
 
-## Tips
+## Settings
 
-- Use this to validate regex matches or parsed values before doing network calls or UI automation.
+| Setting | Type | Default | Description |
+|---|---|---|---|
+| **Value** | string | `""` | Boolean expression with `{variable}` substitution |
+| **Continue If True** | bool | true | Continue when expression is true (set false to invert) |

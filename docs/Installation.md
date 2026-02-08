@@ -55,7 +55,47 @@ No install; runs from a folder.
 
 ---
 
+## Updates
+
+### Update settings
+
+Configure updates in **Settings → System → Updates**:
+
+| Setting | Default | Description |
+|---|---|---|
+| **Release feed** | Stable | Choose **Stable** (monthly) or **Nightly** (daily, may contain bugs) |
+| **Auto update** | Off | Download and install updates silently on startup — no dialogs or prompts |
+| **Check for updates** | — | Manually check for updates now |
+
+### How updates work
+
+- **Automatic check:** On startup, Fluent Search checks for updates in the background. If an update is available, you'll see an OS notification. Click the notification to open the update dialog.
+- **Auto update (silent):** When enabled, updates download and install automatically with no user interaction. The installer runs with the `/VERYSILENT` flag.
+- **Manual check:** The "Check for updates" button in Settings forces an immediate check and shows the result.
+
+Updates are verified with **Ed25519 signatures** for security.
+
+### Switching from Nightly to Stable
+
+Downgrading from Nightly back to Stable isn't supported via the release feed toggle. To go back to Stable, reinstall a Stable build from https://fluentsearch.net.
+
+---
+
+## Pinned results
+
+You can **pin** frequently used search results so they always appear at the top of the search window and Quick Menu home screen.
+
+| Action | How |
+|---|---|
+| **Pin a result** | Select a result and press `Ctrl+Alt+P`, or right-click → **Pin** |
+| **Unpin a result** | Press `Ctrl+Alt+P` again on a pinned result, or right-click → **Unpin** |
+| **Reorder pinned results** | Drag and drop pinned results to change their order |
+
+Pinned results sync across devices when [Settings Sync](Settings%20Sync.md) is enabled.
+
+---
+
 ## Notes
 
-- If you’re not sure which to pick: use **Stable + Installer**.
-- Downgrading from Nightly back to Stable isn’t currently supported via the release feed. To go back to Stable, reinstall a Stable build (for example, from https://fluentsearch.net).
+- If you're not sure which to pick: use **Stable + Installer**.
+- Both x64 and ARM64 architectures are supported across all package types.

@@ -1,5 +1,19 @@
 # Show window
 
-**Type:** `Show window`
+**Type:** `Show window` | **Category:** Misc | **Icon:** 🪟
 
-Opens a Fluent Search window (for example Tasks/Plugins/Settings/About).
+Opens one of Fluent Search's built-in windows.
+
+---
+
+## Settings
+
+| Setting | Type | Default | Description |
+|---|---|---|---|
+| **Window** | `Search` / `Settings` / `Plugins` / `Tasks` / `Screen` / `About` | Search | Which window to show |
+
+---
+
+## Outputs
+
+None.

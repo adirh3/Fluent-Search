@@ -2,81 +2,195 @@
 
 <img alt="Fluent Search Search Tags Settings" src="/docs/images/FileTagLight.webp" width="700" height="auto">
 
-Fluent Search offers **Search Tags** as a powerful way to refine search results and retrieve more relevant information. Whether you’re looking for specific files, browser history, web results, or filtering search results by file type, **Search Tags** provide a quick and efficient way to focus your search.
+Search Tags are one of the most powerful features in Fluent Search. They act as filters that narrow your search to a specific type of content, a specific application, a file type, a folder, or even a web search engine. Mastering search tags is the key to fast, precise results.
 
-### What Are Search Tags?
+---
 
-Search tags act as filters that help narrow down search results within Fluent Search. Instead of searching broadly, adding a search tag ensures that only relevant results are displayed.
+### What are Search Tags?
 
-For example:
-- Searching `report` might show apps, files, and web suggestions.
-- Searching **`.pdf`** as a tag focuses results on PDF files.
+When you search without any tags, Fluent Search queries all enabled Search Apps and shows a mixed list of results. Adding a search tag focuses your search on a specific scope — dramatically reducing noise and speeding up results.
+
+**Without tags:** Searching `report` might show apps, files, browser history, web suggestions, and settings.
+
+**With a tag:** Searching `Files` + `Tab` + `report` shows only file results matching "report."
 
 <img alt="Fluent Search PDF Search Tag" src="/docs/images/PdfSearchTagLight.webp" width="600" height="auto">
 
+---
 
-### How to Use Search Tags
+### How to use Search Tags
 
-Using search tags is simple:
-1. **Type the tag name**, such as `files` or `history`.
-2. **Press `Tab`** to insert the tag into the search bar.
-3. **Enter your search term**, and Fluent Search will apply the tag filter.
+1. **Type the tag name** (for example, `Files`, `History`, `.pdf`)
+2. **Press `Tab`** — the tag locks into the search bar
+3. **Type your search query** — results are filtered through the tag
 
-You can combine multiple tags to refine results further.
+You can add **multiple tags** to combine filters.
 
-Tip: You can also focus the Search Tags area using **`Alt + T`** (default) and pick tags from there.
+**Tip:** Press **`Alt + T`** (default) to jump focus to the Search Tags area and browse available tags.
 
-### Viewing Available Tags
+---
 
-<img alt="Fluent Search Search Tags Settings" src="/docs/images/SearchTagsSettingsLight.webp" width="800" height="auto">
+### Common Search Tags
 
-Fluent Search provides multiple ways to see available and supported tags:
-- Each **Search App** settings page lists the relevant tags it supports.
-- The **Search Tags** page (`Settings > Search tags`) shows all available search tags.
-- Clicking on a tag in the settings takes you to the respective configuration page, where you can modify or disable it.
+#### Search App tags
 
-### Custom and Ignored Search Tags
+Each Search App provides its own tags:
 
-<img alt="Fluent Search Search Tags Settings" src="/docs/images/CustomSearchTagLight.webp" width="800" height="auto">
+| Tag | Source | What it does |
+|---|---|---|
+| `Files` | Files Search App | Search all files and folders |
+| `File` | Files Search App | Files only (no folders) |
+| `Folder` / `Directory` | Files Search App | Folders only (no files) |
+| `content` | Files Search App | Search inside file contents |
+| `Browser` | Browser Search App | All browser data |
+| `History` | Browser Search App | Browser history only |
+| `Bookmark` | Browser Search App | Bookmarks only |
+| `Windows` | Windows Search App | Open windows and processes |
+| `Apps` | Apps Search App | Installed applications |
+| `command` | Commands Search App | Command line commands |
+| `Run` | Commands Search App | Windows Run dialog emulation |
+| `Powershell` | Commands Search App | PowerShell commands |
+| `Cmd` | Commands Search App | Command Prompt commands |
+| `Calculator` | Calculator Search App | Math expressions |
+| `Settings` | Settings Search App | System and app settings |
+| `Screen` | Screen Search App | On-screen elements |
+| `Shortcut` | Shortcuts Search App | Keyboard shortcuts |
+| `todo` | To Do Search App | Microsoft To Do tasks |
 
-Fluent Search allows full customization of search tags:
-- **Create Custom Tags**: You can define your own search tags, such as shortcuts to specific folders.
-- **Ignore Search Tags**: If certain tags are unnecessary, you can disable them in settings to prevent accidental activation.
+#### File extension tags
 
-### Common Search Tag Scenarios
+Type any file extension as a tag to filter by file type:
 
-Here are some real-world scenarios where search tags can enhance your experience:
+| Tag | Matches |
+|---|---|
+| `.pdf` | PDF documents |
+| `.docx` | Word documents |
+| `.png`, `.jpg`, `.gif`, `.svg` | Image files |
+| `.mp4`, `.avi`, `.mkv` | Video files |
+| `.mp3`, `.wav`, `.flac` | Audio files |
+| Any extension | Any file matching that extension |
 
-#### Searching for Specific Content
-- **`Files`** → Search files and folders.
-- **`History`** → Search through browser history.
-- **`Web`** (or a specific web engine tag) → Perform a web search.
+#### File type group tags
 
-#### Searching Inside Specific Folders
+Pre-configured groups that cover multiple extensions at once:
+
+| Tag | Matches |
+|---|---|
+| `image` | PNG, JPG, GIF, SVG, and other image formats |
+| `video` | MP4, AVI, MKV, and other video formats |
+| `audio` | MP3, WAV, FLAC, and other audio formats |
+| `document` | PDF, DOCX, TXT, and other document formats |
+
+You can customize these groups in **Settings → Apps → Files → File extension tags**.
+
+#### Special directory tags
+
+Type any of these to quickly search within common system directories:
+
+| Tag | Directory |
+|---|---|
+| `desktop` | Your Desktop folder |
+| `documents` | Your Documents folder |
+| `downloads` | Your Downloads folder |
+| `pictures` | Your Pictures folder |
+| `music` | Your Music folder |
+| `videos` | Your Videos folder |
+| `recent` | Recently accessed files |
+| `onedrive` | Your OneDrive folder |
+| `temp folder` | System temp directory |
+| `application data` | Roaming AppData |
+| `local application data` | Local AppData |
+| `program files` | Program Files directory |
+| `program data` | ProgramData directory |
+| `user profile` | Your user profile root |
+
+#### Folder path tags
 
 <img alt="Fluent Search Search Tags Settings" src="/docs/images/MultipleTagsLight.webp" width="700" height="auto">
 
-- Type an **exact folder path**, press `TAB`, and Fluent Search will insert it as a tag, allowing searches inside that folder.
-- Combine a **folder path** with **file type tags** to refine searches, e.g., searching `C:\Projects\ reports .docx` will find Word documents inside the Projects folder.
+Type any **folder path** (for example, `C:\Projects`) and press **`Tab`** — Fluent Search inserts it as a search tag, letting you search inside that specific folder. Combine this with file extension tags for precise results:
 
-#### Filtering by File Type
-- **Use file extensions as tags**: Typing `.png` will show only PNG files, and the same applies for `.pdf`, `.mp4`, etc.
-- **Pre-configured file type tags** exist for filtering by content type:
-    - `images:` → Filters only image files (PNG, JPG, GIF, etc.).
-    - `documents:` → Filters only document files (PDF, DOCX, TXT, etc.).
-    - `audio:` → Filters only audio files (MP3, WAV, etc.).
-    - `videos:` → Filters only video files (MP4, AVI, etc.).
+**Example:** `C:\Projects` + `Tab` + `.docx` + `Tab` → finds Word documents inside your Projects folder.
 
-#### Searching Browsing History for Specific Sites
-- Type a website URL (e.g., `https://learn.microsoft.com`), press `TAB`, and Fluent Search can use it as a focused search value depending on which Search App handles the tag.
+#### Web search engine tags
 
-### Customizing Search Tags
+| Tag | What it does |
+|---|---|
+| `Google` | Search Google |
+| `Bing` | Search Bing |
+| `Translate` | Google Translate |
+| `chatgpt` | Send a prompt to ChatGPT |
+| *(custom engines)* | Any search engines you configure |
+| *(browser keywords)* | Search engine keywords imported from your browser |
+
+#### Browser bookmark folder tags
+
+Each bookmark folder in your browser automatically becomes a search tag. For example, if you have a "Work" bookmarks folder, typing `Work` + `Tab` searches only within those bookmarks.
+
+#### AI tag
+
+| Tag | What it does |
+|---|---|
+| `AI` | Performs semantic, meaning-based search across all Fluent Search results using a local AI model |
+
+---
+
+### Combining multiple tags
+
+<img alt="Fluent Search Search Tags Settings" src="/docs/images/MultipleTagsLight.webp" width="700" height="auto">
+
+You can stack multiple tags to create very specific searches:
+
+- **Folder + extension:** `C:\Work` + `.pdf` → PDF files in your Work folder
+- **App + folder:** `Apps` + specific app → recent files from that app
+- **Browser + bookmark folder:** `Bookmark` + `Work` → bookmarks in the Work folder
+
+---
+
+### Viewing available tags
+
+<img alt="Fluent Search Search Tags Settings" src="/docs/images/SearchTagsSettingsLight.webp" width="800" height="auto">
+
+There are multiple ways to discover what tags are available:
+
+- **Press `Alt + T`** in the search window to open the Search Tags area with intelligent suggestions
+- **Settings → Search Tags** shows all available search tags
+- Each **Search App settings page** lists the tags it provides
+- **Clicking a tag** in settings navigates to its configuration page
+
+---
+
+### Custom and ignored tags
+
+<img alt="Fluent Search Search Tags Settings" src="/docs/images/CustomSearchTagLight.webp" width="800" height="auto">
+
+#### Create custom tags
+
+Define your own search tags as shortcuts for frequently used searches or specific scopes:
+
+1. Go to **Settings → Search Tags**
+2. Create a custom tag with your desired name and behavior
+
+#### Ignore tags
+
+If certain tags activate accidentally or are unnecessary for your workflow, you can disable them:
+
+1. Go to **Settings → Search Tags**
+2. Disable any tags you don't want to appear
+
+---
+
+### Customizing web search tags
 
 <img alt="Fluent Search Search Tags Settings" src="/docs/images/WebSearchTagsLight.webp" width="800" height="auto">
 
-Many search tags are configurable in Fluent Search settings:
-- Adjust the behavior of file-related tags in **Files Settings**.
-- Modify or create web search tags in **Web Settings**.
-- Click on any tag in the **Search Tags settings page** to jump to its customization page.
+Web search tags are configured in **Settings → Apps → Web → Web Searches**. You can:
 
-By mastering search tags, you can significantly improve search accuracy and efficiency, making Fluent Search a highly effective tool tailored to your needs.
+- Add new search engines (use `%s` as the query placeholder)
+- Edit or remove existing ones
+- Set a default search engine
+- Add engines for internal tools (wiki, issue tracker, docs site)
+
+---
+
+By mastering search tags, you can dramatically speed up your searches, reduce noise, and make Fluent Search a precision tool tailored to how you actually work.

@@ -2,100 +2,167 @@
 
 <img alt="Fluent Search Search Tags Settings" src="/docs/images/FileTagLight.webp" width="600" height="auto">
 
-Fluent Search offers fast file and folder search. Under the hood, it can use different “indexers” so you can balance speed, system impact, and compatibility with your setup.
+The **Files** Search App provides fast, powerful file and folder search across your computer. Under the hood, it supports multiple indexing engines so you can choose the right balance of speed, disk usage, and compatibility for your setup.
 
-If you want reliable, instant results, spend a few minutes configuring which indexer you want and which locations should be included.
+---
 
-### Indexing Mechanisms
+### What it searches
 
-#### Native File Indexer
+- Files and folders across all configured drives and directories
+- File names, paths, and optionally file contents
+- Special system directories (Desktop, Documents, Downloads, etc.)
+- ZIP file contents (browsable and extractable)
+- Network drives (when configured)
 
-Fluent Search includes its own file indexer service designed for speed and minimal CPU usage.
+---
 
-To use the Fluent Search file indexer:
+### Indexing engines
 
-1. **Install the Indexer Service**:
-    - Navigate to `Settings` > `Apps` > `Files` > `File Indexer`.
-    - Select `Fluent Search` as your preferred indexer.
-    - Follow the prompts to install and start the service.
+Fluent Search supports three file indexing options. Choose the one that fits your needs:
 
-*Note: Administrative privileges may be required to install the service.*
+#### Fluent Search Indexer (recommended)
 
-#### Windows Search Indexer
+Fluent Search includes its own file indexer service designed for speed and minimal resource usage:
 
-Fluent Search can integrate with Windows Search so it uses the same index Windows maintains.
+- **20× faster indexing** and **5× faster search** compared to previous versions (File Index V2)
+- **10× smaller index** footprint on disk
+- Runs as a background Windows service
 
-1. **Enable Windows Search Integration**:
-    - Go to `Settings` > `Apps` > `Files` > `File Indexer`.
-    - Select `Windows Search` as the indexer.
+To set up:
+1. Go to **Settings → Apps → Files → File Indexer**
+2. Select **Fluent Search**
+3. Follow the prompts to install and start the service
 
-2. **Configure Indexed Locations**:
-    - Open `Control Panel` > `Indexing Options`.
-    - Modify the indexed locations to include directories you want to search.
+*Administrative privileges may be required to install the service.*
 
-*Note: Disabling Windows Indexing may affect the functionality of Windows Search and other dependent features.*
+#### Windows Search
 
-#### Everything Indexer
+Integrates with the built-in Windows Search index — the same one used by File Explorer and the Start menu:
 
-Fluent Search also supports integration with the Everything search engine by Voidtools, known for its rapid indexing and minimal resource usage.
+1. Go to **Settings → Apps → Files → File Indexer**
+2. Select **Windows Search**
+3. Configure indexed locations in **Control Panel → Indexing Options**
 
-1. **Install Everything**:
-    - Download and install [Everything](https://www.voidtools.com/).
+#### Everything by Voidtools
 
-2. **Enable Everything Integration in Fluent Search**:
-    - Navigate to `Settings` > `Apps` > `Files` > `File Indexer`.
-    - Select `Everything` as the indexer.
+Integrates with [Everything](https://www.voidtools.com/), a popular third-party search engine known for near-instant file indexing:
 
-*Note: Ensure the Everything service is running for Fluent Search to access its index. If Everything client is running as admin, Fluent Search must run as admin as well.*
+1. Install Everything from https://www.voidtools.com/
+2. Go to **Settings → Apps → Files → File Indexer**
+3. Select **Everything**
 
-### Useful Search Tags
+*Note: The Everything service must be running. If Everything runs as administrator, Fluent Search must also run as administrator.*
 
-The Files Search App commonly supports tags such as:
+---
 
-- `Files` for general file searching
-- `File` (files only)
-- `Folder` / `Directory` (folders only)
-- File extensions like `.pdf`, `.docx`, `.png`
+### Search Tags
 
-Folder paths can also be used as tags: type a folder path and press `Tab` to search inside it.
+The Files Search App offers an extensive set of search tags to narrow results:
 
-### Configuring Indexed and Ignored Paths
+#### General tags
+| Tag | Description |
+|---|---|
+| `Files` | Search all files and folders |
+| `File` | Search files only (no folders) |
+| `Folder` / `Directory` | Search folders only (no files) |
+| `content` | Search inside file contents (in content-indexed paths) |
 
-Customizing which directories are indexed or ignored can optimize search performance and relevance.
+#### File extension tags
+| Tag | Description |
+|---|---|
+| `.pdf`, `.docx`, `.png`, `.sln`, etc. | Filter by any file extension |
+| `image` | Image files (PNG, JPG, GIF, SVG, etc.) |
+| `video` | Video files (MP4, AVI, MKV, etc.) |
+| `audio` | Audio files (MP3, WAV, FLAC, etc.) |
+| `document` | Document files (PDF, DOCX, TXT, etc.) |
 
-#### Adding Indexed Paths
+You can create your own file extension tag groups in **Settings → Apps → Files → File extension tags**.
 
-1. **Access File Indexer Settings**:
-    - Go to `Settings` > `Apps` > `Files` > `Indexed Paths`.
+#### Special directory tags
+| Tag | Description |
+|---|---|
+| `desktop` | Your Desktop folder |
+| `documents` | Your Documents folder |
+| `downloads` | Your Downloads folder |
+| `pictures` | Your Pictures folder |
+| `music` | Your Music folder |
+| `videos` | Your Videos folder |
+| `recent` | Recently accessed files |
+| `onedrive` | Your OneDrive folder |
+| `temp folder` | System temp directory |
+| `application data` | Roaming AppData |
+| `local application data` | Local AppData |
+| `program files` | Program Files directory |
+| `program data` | ProgramData directory |
+| `user profile` | Your user profile root |
 
-2. **Add New Paths**:
-    - Click `Add Path` and select the directories you want to include in the index.
+#### Folder path tags
+Type any folder path (for example, `C:\Projects`) and press **`Tab`** to search inside that specific folder. You can combine folder path tags with file extension tags for precise results.
 
-#### Ignoring Specific Paths
+---
 
-1. **Access Ignored Paths Settings**:
-    - Navigate to `Settings` > `Apps` > `Files` > `Ignored Paths`.
+### Result actions
 
-2. **Add Paths to Ignore**:
-    - Click `Add Path` and choose the directories or files you want to exclude from the index.
+| Action | Shortcut | Description |
+|---|---|---|
+| **Open** | `Ctrl + 1` | Opens the file or folder with the default program |
+| **Open Parent Folder** | `Ctrl + 2` | Opens the folder containing the file |
+| **Open in Command Line** | `Ctrl + 3` | Opens a terminal at the file's directory |
+| **Open With** | `Ctrl + 4` | Opens the "Open With" dialog to choose an application |
+| **Copy File** | `Ctrl + 5` | Copies the file to clipboard |
+| **Copy File Path** | `Ctrl + C` | Copies the full file path to clipboard |
+| **Search in Parent Folder** | `Ctrl + R` | Adds the parent folder as a search tag |
+| **Share** | `Ctrl + Shift + S` | Opens the Windows share dialog |
+| **Rename** | `F2` | Renames the file or folder inline |
+| **Delete** | `Delete` | Moves the file to the Recycle Bin |
+| **Permanently Delete** | `Shift + Delete` | Permanently deletes the file |
+| **Summarize** | — | AI-powered summary of the file (when AI features are enabled) |
 
-*Note: Properly configuring ignored paths can prevent unnecessary files from appearing in search results and improve performance.*
+**Drag and drop:** You can drag file results from Fluent Search and drop them into other applications.
 
-### Troubleshooting Indexer Issues
+**Create files and folders:** If you type a path that doesn't exist, Fluent Search will offer to create the file or folder for you.
 
-If you encounter issues with the file indexer service:
+**ZIP file browsing:** When a ZIP file result is expanded, you can browse its contents and extract individual files.
 
-1. **Verify Service Installation**:
-    - Open `Services` (`services.msc`).
-    - Locate `FluentSearch.FileIndexer`.
-    - Ensure the service is running. If not, start it manually.
+---
 
-2. **Reinstall the Indexer Service**:
-    - If problems persist, reinstall the service via `Settings` > `Apps` > `Files` > `File Indexer`.
+### Settings
 
-3. **Rebuild the Index**:
-    - If results are stale or missing after big changes (large moves, restores, new drive), rebuild the file indexer.
+| Setting | Description | Default |
+|---|---|---|
+| **File indexer** | Choose between Fluent Search, Windows Search, or Everything | Fluent Search |
+| **Indexed paths** | Directories included in the file index | All drives |
+| **Content indexed paths** | Directories where file content is also indexed | Empty |
+| **Ignored paths and files** | Paths excluded from search and indexing | Windows, Windows.old, $Recycle.Bin, AppData, ProgramData |
+| **Ignored file extensions** | Extensions excluded from results | Empty |
+| **Prioritized file extensions** | Extensions that appear higher in results | Empty |
+| **Auto-learn file extension usage** | Automatically prioritize frequently-used file types | On |
+| **Auto search file paths** | Match file paths even without a backslash in the query | Off |
+| **Max files to process** | Maximum number of matching files to process (0 = unlimited) | 1000 |
+| **Default file manager** | Custom file manager for opening directories | Windows Explorer |
+| **Open folders in existing window** | Open folders in an existing Explorer/file manager window | On |
+| **Show file modification age** | Display relative time ("2 hours ago") instead of timestamps | On |
+| **Default preview folder view** | Icons or Details view for folder preview | Icons |
+| **Stop indexer on exit** | Stop the Fluent Search indexer service when closing the app | Off |
+| **File extension tags** | Configure custom groups of file extensions as search tags | video, audio, document, image |
 
-For further assistance, refer to the [Fluent Search GitHub Issues](https://github.com/adirh3/Fluent-Search/issues) page or join the community on [Discord](https://discord.com/invite/fluentsearch).
+To access: **Settings → Apps → Files**.
 
-By understanding and configuring these indexing options, you can tailor Fluent Search to efficiently locate the files and directories most relevant to your needs. 
+---
+
+### Troubleshooting
+
+#### Indexer service not running
+1. Open Windows Services (`services.msc`)
+2. Find **FluentSearch.FileIndexer**
+3. Ensure the service is running; start it manually if needed
+
+#### Stale or missing results
+- Rebuild the index: **Settings → Apps → Files → File Indexer → Rebuild Index**
+- Verify that the relevant directory is in your indexed paths and not in your ignored paths
+
+#### Everything integration not working
+- Ensure the Everything service is running
+- If Everything runs elevated (as admin), Fluent Search must also run as administrator
+
+For further help: [GitHub Issues](https://github.com/adirh3/Fluent-Search/issues) or [Discord](https://discord.com/invite/fluentsearch).

@@ -1,64 +1,76 @@
-## Gaming mode (full-screen / process-aware hotkey suppression)
+## Gaming Mode (Full-Screen / Process-Aware Hotkey Suppression)
 
-“Gaming mode” in Fluent Search is a practical set of behaviors that helps prevent Fluent Search from popping up or stealing focus while you’re in a full-screen experience (games, presentations, remote desktop, video players) or when specific apps are running.
-
-It’s primarily implemented through **Hotkeys settings** that tell Fluent Search to *ignore global hotkeys* under certain conditions.
+Gaming mode in Fluent Search prevents the app from popping up or stealing focus while you're in a full-screen experience — games, presentations, remote desktop sessions, video players, or any situation where accidental hotkey triggers would be disruptive.
 
 ---
 
 ### Why use it?
 
-- Avoid accidental hotkey triggers while gaming or presenting.
-- Reduce interruptions caused by focus changes.
-- Keep Fluent Search installed/enabled without affecting full-screen workflows.
+- **Avoid accidental popups** while gaming, presenting, or using full-screen apps
+- **Prevent focus stealing** during remote desktop or video sessions
+- **Eliminate input interference** — Fluent Search completely unregisters its hotkeys when gaming mode conditions are met, so there is zero impact on input latency
+- **Keep Fluent Search installed** without it interfering with your full-screen workflows
 
 ---
 
 ### How to enable
 
-1. Open Fluent Search.
-2. Go to `Settings` > `Hotkeys`.
-3. Enable one (or both) of these options:
-   - **Ignoring Hotkeys in Full-Screen Applications**
-   - **Ignoring Hotkeys for Specific Processes**
+1. Open Fluent Search
+2. Go to **Settings → Hotkeys**
+3. Enable one or both of these options:
 
-If you use the per-process option, add the process names (for example, `game.exe`, `obs64.exe`, `mstsc.exe`) that should suppress Fluent Search hotkeys.
+| Option | Description |
+|---|---|
+| **Ignore hotkeys in full-screen applications** | Suppresses all Fluent Search hotkeys when any full-screen window is detected (excludes Windows Explorer) |
+| **Ignore hotkeys for specific processes** | Suppresses hotkeys when the focused application matches a process name on your list |
+
+For the per-process option, add process names (for example, `game.exe`, `obs64.exe`, `mstsc.exe`) to the ignore list.
+
+**Quick toggle:** You can also search for "Gaming mode" in Fluent Search and toggle it on or off from the results.
 
 ---
 
 ### What exactly is suppressed?
 
-When gaming mode conditions apply, Fluent Search will **not respond to global hotkeys** that would normally open the Fluent Search window or trigger hotkey-bound actions.
+When gaming mode conditions apply, Fluent Search **completely unregisters its global hotkeys** from the operating system. This means:
 
-This means:
+- The main search hotkey will not respond
+- Search App hotkeys, app hotkeys, and tag hotkeys are all unregistered
+- Screen search and in-window search hotkeys are unregistered
+- **No input lag** — since the hotkeys are unregistered (not just blocked), there is no overhead on keyboard input
 
-- The main search hotkey will be ignored.
-- Any hotkeys you assigned to Search Apps / tags may also be ignored (because they are global hotkeys too).
-
-Non-hotkey entry points (for example clicking the tray icon or launching Fluent Search normally) are not affected by these settings.
+**What is NOT affected:**
+- Clicking the system tray icon still works
+- Launching Fluent Search from shortcuts or other apps still works
+- Fluent Search continues running in the background — only the hotkey listener is suspended
 
 ---
 
-### Background process notes (what “BackgroundProcess” means here)
+### System tray indicator
 
-Fluent Search supports system-wide hotkeys, which implies there is always some **background component** able to listen for those hotkeys.
+When gaming mode is active (either partially or fully), the Fluent Search system tray icon changes to a gaming mode icon. This gives you a quick visual indicator that hotkeys are currently suppressed.
 
-Gaming mode does not need to “stop” Fluent Search entirely; instead it changes how Fluent Search behaves when a hotkey event happens:
+### Background process modes
 
-- When a full-screen app is detected, or the focused/running process matches your ignore list, Fluent Search simply **doesn’t act** on the hotkey.
+Fluent Search supports three background process modes:
 
-This approach avoids disruptive popups while keeping Fluent Search available outside those scenarios.
+| Mode | Description |
+|---|---|
+| **Full** | All hotkeys active (normal operation) |
+| **Partial** | Hotkeys suppressed for ignored processes only |
+| **Disabled** | All hotkeys suppressed (full gaming mode) |
 
 ---
 
 ### Tips and troubleshooting
 
-- **Hotkeys stop working “randomly”**: check whether you’re in a borderless-fullscreen app (some games and video players count as full-screen).
-- **Only one app should suppress hotkeys**: use **Ignoring Hotkeys for Specific Processes** rather than full-screen suppression.
-- **You want Fluent Search hotkeys in a specific full-screen app**: disable full-screen suppression and use the per-process list to suppress only what you need.
+- **Hotkeys stop working unexpectedly:** Check whether you're in a borderless-fullscreen app — many games and video players run in borderless fullscreen, which counts as full-screen for suppression purposes.
+- **Only one app should suppress hotkeys:** Use **Ignore hotkeys for specific processes** instead of the blanket full-screen suppression. This gives you more precise control.
+- **You want hotkeys in a specific full-screen app:** Disable full-screen suppression and use the per-process list to suppress only the processes you need.
+- **Remote Desktop:** `mstsc.exe` (Remote Desktop Client) is in the default ignore list because hotkeys typically interfere with remote sessions.
 
-If you’re debugging a “hotkey not firing” report, always ask for:
-
-- Whether full-screen hotkey suppression is enabled.
-- The process name of the foreground app.
-- Whether per-process suppression is configured.
+**Debugging checklist** when hotkeys aren't firing:
+1. Is full-screen hotkey suppression enabled?
+2. What is the process name of the foreground app?
+3. Is that process in the per-process ignore list?
+4. Check the system tray icon — is it showing the gaming mode indicator?
