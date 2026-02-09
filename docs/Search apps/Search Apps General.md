@@ -2,61 +2,92 @@
 
 <img alt="Fluent Search Window" src="/docs/images/SearchAppsSettingsLight.webp" width="700" height="auto">
 
-Fluent Search offers a variety of **Search Apps** that allow you to locate and access different resources on your computer efficiently. Each Search App focuses on a specific type of content, such as files, applications, browser tabs, or system settings. Understanding and managing these Search Apps can enhance your productivity and streamline your workflow.
+Fluent Search is powered by **Search Apps** — specialized modules that each focus on a specific type of content. When you type a query, the enabled Search Apps work together to find matching results across applications, files, browser data, web searches, open windows, system settings, and more.
 
-### Default Search Apps
+Understanding Search Apps is key to getting the most out of Fluent Search: you can enable the ones you need, disable what you don't, and configure each one to behave exactly the way you want.
 
-Upon installation, Fluent Search includes several default Search Apps:
+---
 
-- **Files**: Search for documents, images, videos, and other file types stored on your system.
+### Available Search Apps
 
-- **Web**: Perform web searches directly from Fluent Search without opening a browser.
+| Search App | What it does |
+|---|---|
+| [**Apps**](Apps.md) | Find and launch installed applications, view recent files, uninstall programs |
+| [**Files**](Files.md) | Search files and folders using multiple indexing engines |
+| [**Browser**](Browser.md) | Search browser history, bookmarks, and saved search engines across Chromium and Firefox |
+| [**Commands**](Commands.md) | Run shell commands, system operations, and access command history |
+| [**Web**](Web.md) | Search the web with configurable search engines and inline preview |
+| [**Windows**](Windows.md) | Find and switch between open windows, with optional in-app content search |
+| [**Settings**](Settings.md) | Quickly navigate to Windows system settings or Fluent Search settings |
+| [**Calculator**](Calculator.md) | Perform math calculations with hex/binary support |
+| [**In-window search**](In-window%20search.md) | Search UI elements inside the currently focused application |
+| **Screen Search** | Navigate clickable elements on screen using keyboard overlays (see [Screen Search](../Screen%20search/Screen%20Search.md)) |
+| **Shortcuts** | Search keyboard shortcuts for the OS or the currently focused application |
+| **To Do** | Search and manage Microsoft To Do tasks |
+| **Bing** | Live web search results powered by the Bing API |
 
-- **Applications**: Locate and launch installed applications quickly.
-
-- **Windows**: Find and switch to opened windows or manage active processes.
-
-- **UI Elements**: Search through open tabs or other UI elements in opened applications.
-
-- **System Settings**: Access various system configurations and settings.
+---
 
 ### Managing Search Apps
 
-Fluent Search allows you to customize which Search Apps are active, tailoring the search experience to your needs.
+#### Enabling or disabling Search Apps
 
-#### Enabling or Disabling Search Apps
+1. Open Fluent Search (**`Ctrl + Alt`**) and type `settings` → press **`Enter`**
+2. Go to **Apps**
+3. Toggle the **Search with App** switch next to any Search App
 
-1. **Open Fluent Search Settings**:
-    - Activate Fluent Search by pressing `Ctrl + Alt`.
-    - Type `settings` and select the **Settings** option.
+When a Search App is **disabled**, it will not contribute any results to your searches.
 
-2. **Navigate to Search Applications**:
-    - In the Settings window, go to the **Apps** section.
+#### Search Tag Only mode
 
-3. **Toggle Search Apps**:
-    - You'll see a list of available Search Apps.
-    - To enable or disable a Search App, toggle the **Search with App** switch next to its name.
-        - **Enabled**: Fluent Search will include this app in search results.
-        - **Disabled**: The app will be excluded from search operations and suggestions.
+For Search Apps you use occasionally but don't want cluttering every search, enable **Search Tag Only**. In this mode, the app only produces results when you explicitly use one of its search tags.
 
-#### Configuring Search Apps
+**Example:** Set Calculator to "Search Tag Only" so calculations only appear when you type `Calculator` + `Tab`.
 
-Each Search App offers customization options:
+#### Configuring individual Search Apps
 
-- **Search Tag Only**: Enable this to make Fluent Search use the app only when a specific search tag is provided.
+Click on any Search App in the list to open its dedicated settings page. Each app offers different configuration options — from file indexer selection in the Files app to custom search engine URLs in the Web app.
 
-- **Search Hotkey**: Assign a hotkey to open Fluent Search and search exclusively within that app.
+---
 
-- **Operation Hotkeys**: Set hotkeys to perform specific actions when a result from the app is focused.
+### Search App hotkeys
 
-To configure these settings:
+You can assign a **global hotkey** to open Fluent Search already scoped to a specific Search App. This is a powerful way to create "jump in" shortcuts for your most common tasks.
 
-1. **Access the App's Settings**:
-    - In the **Search Applications** section, click on the desired app to open its settings page.
+To set up:
 
-2. **Adjust Settings**:
-    - Modify the available options as needed to suit your workflow.
+1. Go to **Settings → Hotkeys**
+2. Find the Search App you want
+3. Assign a key combination
 
-By effectively managing your Search Apps, you can optimize Fluent Search to provide relevant results tailored to your preferences.
+**Example:** Assign `Ctrl + Alt + F` to open Fluent Search directly in Files search mode.
 
-*For more detailed information, refer to the [Fluent Search Wiki on Search Apps](https://github.com/adirh3/Fluent-Search/wiki/Search-apps).* 
+---
+
+### Operation hotkeys
+
+Each Search App defines its own set of **result operations** — actions you can take on a selected result (like Open, Copy, Delete, Run as Admin). Many of these have configurable keyboard shortcuts.
+
+To customize operation hotkeys:
+
+1. Open the Settings page for the Search App
+2. Look for the **Operation Hotkeys** section
+3. Assign or change key combinations for each action
+
+---
+
+### Recommended setup patterns
+
+#### Keep results focused
+- Enable only the Search Apps you use daily (commonly: Apps, Files, Commands, Browser)
+- Set less-used apps (Calculator, Settings, Shortcuts) to **Search Tag Only** so they don't add noise to general searches
+
+#### Create "jump in" hotkeys
+If you frequently do one specific thing (like file search or browser history search), assign a dedicated global hotkey that opens Fluent Search already scoped to that Search App.
+
+#### Use tags for precision
+Learn the search tags for your favorite Search Apps (like `History` for browser history or `.pdf` for PDF files) and use them to quickly narrow results when typing in the general search.
+
+---
+
+For app-specific configuration and detailed guides, see the individual Search App pages linked above.

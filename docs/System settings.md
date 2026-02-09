@@ -2,44 +2,109 @@
 
 <img alt="Fluent Search Window" src="/docs/images/SystemSettingsLight.webp" width="700" height="auto">
 
-Fluent Search offers a comprehensive set of system configurations, allowing users to tailor the application's behavior to their preferences. These settings are accessible through the **Settings** menu under the **System** section.
+Fluent Search's system settings give you control over how the application starts, performs, syncs, updates, and integrates with your system. These settings are found under **Settings → System**.
 
-### Startup Configuration
+---
+
+### Startup
 
 Customize how Fluent Search initializes with your system:
 
-- **Launch at Windows Startup**: Enable this option to have Fluent Search start automatically when your computer boots.
-- **Improved Startup**: Utilizes Windows Task Scheduler to enhance startup speed. Note that Fluent Search may not appear in the Task Manager when this is enabled.
-- **Window Startup Position**: Determine where the Fluent Search window appears upon launch:
-    - **Active Screen Center**: Centers the window on the currently active monitor.
-    - **Screen Center**: Centers the window on the primary monitor.
-    - **Last Position**: Opens the window at the last known position before closing.
-- **Show in Taskbar**: Choose whether Fluent Search should be visible in the taskbar.
-- **Reset Window Sizes**: Restore all Fluent Search window sizes to their default dimensions.
+| Setting | Description | Default |
+|---|---|---|
+| **Launch at Windows Startup** | Start Fluent Search automatically when your computer boots | On |
+| **Improved Startup** | Uses Windows Task Scheduler for faster startup. When enabled, Fluent Search may not appear in Task Manager's startup list | Off |
+| **Start Minimized** | Start without showing a loading screen or window — Fluent Search runs silently in the background | On |
+| **Window Startup Position** | Where the search window appears when opened | Active Screen Center |
 
-### Performance Settings
+Window startup position options:
 
-Optimize Fluent Search's performance based on your system's capabilities:
+- **Active Screen Center** — Centers the window on the monitor where your cursor or focused window is
+- **Screen Center** — Centers the window on your primary monitor
+- **Last Position** — Opens the window at the position where you last used it
 
-- **Performance Mode**: Allocates more system resources to Fluent Search for faster search results.
-- **Reduce Memory Usage**: Minimizes RAM consumption, which may slightly impact search speed.
-- **Use GPU**: Leverages your graphics processor to enhance performance, especially beneficial for graphic-intensive tasks.
-- **Send Crash Diagnostics**: Automatically sends crash reports to help improve Fluent Search's stability and performance.
+Additional options:
 
-### Sync Options
+- **Show in Taskbar** — Whether Fluent Search appears in the Windows taskbar (default: On)
+- **Always On Top** — Keep the Fluent Search window above all other windows (default: On)
+- **Reset Window Sizes** — Restore all Fluent Search window dimensions to their defaults
 
-Keep your Fluent Search settings consistent across devices:
+---
 
-- **Settings Sync with OneDrive**: Enable this feature to synchronize your configurations using your OneDrive account, ensuring a seamless experience across multiple devices.
-- **Import/Export Settings**: Manually back up or transfer your settings by exporting them to a file, which can then be imported on another device or after a system reset.
+### Language
 
-### Update Preferences
+Fluent Search supports over 14 languages, including full right-to-left (RTL) support for Hebrew and Arabic:
+
+English, Hebrew, French, German, Korean, Arabic, Italian, Portuguese, Japanese, Polish, Russian, Bengali, Chinese, Spanish, and more.
+
+To change language: **Settings → System → Language**.
+
+---
+
+### Performance
+
+Optimize Fluent Search's performance based on your hardware:
+
+| Setting | Description | Default |
+|---|---|---|
+| **Performance Mode** | Allocates more system resources for faster results | Off |
+| **Use GPU** | Enables hardware-accelerated rendering. Uses more RAM but improves visual performance. Should be disabled for remote desktop (RDP) sessions | On |
+| **Reduce Memory Usage** | Aggressively clears memory when Fluent Search is idle. May slightly impact search speed when resuming | Off |
+| **Zero Latency Mode** | Shows results as fast as possible with no delay. Increases CPU usage and may cause instability on lower-end systems | Off |
+
+**Tip:** If you're using Fluent Search over Remote Desktop, disable GPU acceleration to avoid rendering issues.
+
+---
+
+### Accessibility
+
+Fluent Search integrates with screen readers and offers text-to-speech features:
+
+| Setting | Description | Default |
+|---|---|---|
+| **Enable Speech Mode** | Read search results and operations aloud using text-to-speech | Off |
+| **Auto-detect Screen Reader** | Automatically detect and integrate with NVDA or ZDSR screen readers | On |
+| **Voice** | Choose which SAPI voice to use for speech | System default |
+| **Speech Rate** | Adjust how fast text is spoken (range: -10 to 10) | 1 |
+| **Speak Selected Operation** | Announce the currently selected operation | On |
+| **Speak Operation Text** | Read operation descriptions aloud | On |
+| **Speak Result Type** | Announce each result's type (file, app, etc.) | On |
+| **Sound Effects** | Play subtle sound effects for interactions | Off |
+
+---
+
+### Sync
+
+Keep your Fluent Search settings consistent across multiple devices:
+
+- **Settings Sync with OneDrive** — Synchronize your Fluent Search settings, tasks, and installed plugin list using your Microsoft OneDrive account. Changes on one device automatically reflect on others.
+- **Import / Export Settings** — Manually back up your settings to a file, or restore them from a backup. Useful for migration or when setting up a new machine without OneDrive.
+
+Sync includes your search configuration, personalization settings, hotkeys, and the names of installed plugins (plugins are re-downloaded on the new device).
+
+---
+
+### Crash Diagnostics
+
+- **Send Crash Diagnostics** — When enabled, Fluent Search automatically sends anonymous crash reports to help improve stability. No personal data, search content, or file information is included. You can disable this at any time in **Settings → System → Performance**.
+
+---
+
+### Updates
 
 Manage how Fluent Search updates on your system:
 
-- **Release Feed**: Choose between:
-    - **Stable**: Receives thoroughly tested updates, ensuring reliability.
-    - **Nightly (Beta)**: Accesses the latest features and improvements, though they may be less stable. Note that this option is not available if Fluent Search is installed via the Microsoft Store.
-- **Auto Update**: When enabled, Fluent Search will silently install updates in the background, keeping the application up-to-date without manual intervention.
+| Setting | Description |
+|---|---|
+| **Stable** | Default release channel — thoroughly tested, monthly updates. Recommended for most users |
+| **Nightly** | Pre-release channel — daily updates with the latest features and fixes. May contain bugs. Not available for Microsoft Store installs |
 
-By configuring these system settings, you can tailor Fluent Search to align with your workflow and system requirements, ensuring an efficient and personalized user experience. 
+- **Auto Update** — When enabled, Fluent Search silently installs updates in the background, keeping the app up-to-date without manual intervention.
+
+**Important:** Downgrading from Nightly back to Stable is not supported via the release feed. To return to Stable, reinstall the Stable build from https://fluentsearch.net.
+
+To configure: **Settings → System → Updates**.
+
+---
+
+By configuring these system settings, you can tailor Fluent Search to match your hardware, workflow, and preferences — from a lightweight background tool to a power-user productivity hub.

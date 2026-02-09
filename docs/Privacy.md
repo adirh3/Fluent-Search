@@ -1,50 +1,86 @@
-## Fluent Search Privacy Policy
+## Fluent Search Privacy
 
-Hi there! I'm Adir, the developer behind Fluent Search. I started this project as a hobby to make navigating your computer a more seamless experience. While it's a personal passion project, I take your privacy very seriously. I want to be completely transparent about how Fluent Search works with your data.
+This page explains how Fluent Search handles your data, what stays on your device, and which features may communicate externally.
 
-- - -
+---
 
-### 1\. Data Collection and User Activity Logging
+### 1. Local-first design
 
-Fluent Search **does not collect** any of your personal data or log your activity. Every search you perform and every interaction you have with the app happens entirely on your own computer. There are no hidden trackers, no analytics gathering your information—nothing leaves your device.  
-**The only exceptions are basic telemetry when you open the app and crash diagnostics data; these do not contain any personal information and are used solely to improve the app's performance and stability.**
+Fluent Search is designed to run **locally on your device**. Your searches, file indexes, browser data, and most interactions are processed entirely on your machine. Fluent Search does not upload your local files, search queries, or the contents of what you search.
 
-### 2\. Data Storage
+---
 
-All data processed by Fluent Search is stored **locally on your machine**. The app doesn't transmit any information externally. There's no cloud storage, no external servers, and no hidden data transfers. Your searches and data stay with you, exactly where they belong.
+### 2. What may communicate externally
 
-To give you a clear picture of where Fluent Search stores its data, here's how it works:
+Depending on your configuration, Fluent Search may send or receive limited data:
 
-#### Settings Storage:
+| Feature | What it does | Can be disabled? |
+|---|---|---|
+| **Crash diagnostics** | Sends anonymous crash reports to help improve stability. No personal data, search content, or file information is included | Yes — disable in Settings → System → Performance |
+| **Update checks** | Checks whether a newer version is available | Part of auto-update; can be managed in Settings → System → Updates |
+| **Web search suggestions** | Sends your typed query to a search engine provider (Google, Bing, DuckDuckGo, or custom) to retrieve auto-complete suggestions | Yes — disable or change the provider in Settings → Apps → Web |
+| **Web search** | When you perform a web search, it opens in your browser (Fluent Search does not proxy the search) | N/A — standard browser behavior |
+| **Web preview** | When previewing a web page, the page is loaded in an embedded browser (Microsoft Edge WebView) | Yes — disable web preview module |
+| **Microsoft To Do** | If enabled, syncs tasks with your Microsoft account via the Microsoft Graph API | Yes — the To Do Search App is disabled by default |
+| **Settings sync (OneDrive)** | If enabled, syncs your Fluent Search settings via your OneDrive account | Yes — opt-in feature |
+| **Community themes** | Downloads available themes from the Fluent Search themes server | Only when you browse community themes |
+| **Plugins** | Third-party plugins may communicate with external services | Only enable plugins you trust; review their descriptions |
+| **AI features** | All AI processing (semantic search, summarization) happens **locally on your device** — no data is sent to external AI services | Can be globally disabled in Settings |
 
-*   **Installer Version:** Settings are saved in the App Data folder called **Blast**.
-*   **Appx/Microsoft Store Version:** Settings are stored in a containerized App Data folder named **Blast**.
-*   **Portable Version:** Settings are kept in a folder next to the executable, also called **Blast**.
+---
 
-#### Indexer Storage:
+### 3. Data storage
 
-*   **Installer Version:** Indexed data is stored in the Program Data folder named **Fluent Search**. This folder can be accessed only by an administrator, adding an extra layer of security.
-*   **Appx/Microsoft Store Version:** Indexed data is stored in the Program Data folder named **Fluent Search**, also accessible only by an administrator.
-*   **Portable Version:** Indexed data is stored in a folder next to the executable called **Cache**.
+Most Fluent Search data is stored **locally on your machine**:
 
-### 3\. Access to Data
+#### Settings storage
 
-Since I'm the sole developer and Fluent Search doesn't send data anywhere, **no one else** has access to your information—not even me. The app doesn't integrate with any third-party services that could access your data. Your privacy is entirely in your hands.
+| Install Type | Location |
+|---|---|
+| **Installer version** | `%AppData%\Blast` |
+| **Microsoft Store / APPX version** | Containerized AppData folder named `Blast` |
+| **Portable version** | `Blast` folder next to the executable |
 
-Please note that some optional plugins may use third-party services, like Translator or Microsoft To Do. These plugins are disabled by default, and you can choose whether to enable them based on your preferences.
+#### Index storage
 
-### 4\. Data Retention
+| Install Type | Location |
+|---|---|
+| **Installer version** | `%ProgramData%\Fluent Search` (administrator access only) |
+| **Microsoft Store / APPX version** | `%ProgramData%\Fluent Search` (administrator access only) |
+| **Portable version** | `Cache` folder next to the executable |
 
-Because Fluent Search doesn't collect or store personal data beyond what's necessary for it to function on your device, there's no data retention policy needed. Any temporary data the app uses is handled by your system and is kept only as long as needed for the app to run smoothly.
+The index stores file metadata for fast search. It does not store file contents (unless you explicitly enable content indexing for specific paths).
 
-### 5\. User Control Over Data Collection
+---
 
-You have **full control** over how Fluent Search operates. While the app doesn't collect data, you can adjust settings within the app to disable any features you're not comfortable with, including crash diagnostics. To stop sending crash reports, simply disable the **"Send crash diagnostics"** option in Settings.
+### 4. Browser data access
 
-- - -
+The Browser Search App reads your browser's local database files (history, bookmarks, favicons) directly from disk. This data is:
+- Read-only — Fluent Search does not modify your browser data
+- Local — the data stays on your device
+- Private — it is not transmitted anywhere
 
-I built Fluent Search to help make your computing experience better without compromising your privacy. As a fellow user, I understand how important it is to trust the tools we use every day. Rest assured, there are no hidden agendas—just a simple, efficient tool designed to make your life a bit easier.
+---
 
-If you have any questions, concerns, or suggestions, please don't hesitate to reach out. I'm always here to help and eager to improve Fluent Search based on your feedback. After all, this app is for you, and your insights make a world of difference.
+### 5. User control
 
-By the way, if there's anything specific you'd like to see in future updates or if you have ideas on how Fluent Search can serve you better, I'm all ears. Your thoughts not only help enhance the app but also make this hobby project even more rewarding.
+You have **full control** over what Fluent Search does:
+
+- **Crash diagnostics** — disable sending crash reports anytime
+- **Web suggestions** — choose your provider or disable entirely
+- **AI features** — disable all AI features with a single toggle
+- **Plugins** — only enable plugins you trust
+- **To Do integration** — disabled by default; requires explicit login
+- **Settings sync** — opt-in only; requires OneDrive account
+- **Search Apps** — disable any Search App you don't want
+- **Content indexing** — only indexes file contents for paths you explicitly configure
+
+---
+
+### 6. Data retention
+
+Fluent Search does not maintain a remote database of your data. Local caches and indexes exist only as long as you use the app. Uninstalling Fluent Search removes the application; to fully clean up, delete the settings and index folders listed above.
+
+---
+
+If you have questions about a specific feature's privacy behavior, check its settings page — Fluent Search is designed so you can enable only the parts you want.

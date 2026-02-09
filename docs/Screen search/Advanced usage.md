@@ -1,53 +1,81 @@
-## Advanced Usage of Screen Search in Fluent Search
+## Advanced Usage of Screen Search
 
-Fluent Search's **Screen Search** feature offers advanced functionalities that enable users to navigate and interact with their computer entirely through keyboard inputs, reducing reliance on the mouse. By utilizing various key commands, users can perform different types of clicks, adjust label positions, switch search engines, and manage multi-monitor setups efficiently.
+Fluent Search's Screen Search feature offers advanced controls for different click actions, label positioning, engine switching, and multi-monitor navigation — all from the keyboard.
 
-### Performing Click Actions with Key Commands
+---
 
-Screen Search allows users to execute specific mouse actions by pressing designated keys before typing the label text associated with an on-screen element. These actions can be customized in the settings. The default key commands are:
+### Click actions
 
-- **Single Click**: Press the label text directly to perform a standard click.
+Before typing a label's characters, press a number key to change the type of click that will be performed:
 
-- **Double Click**: Press `2`, then type the label text.
+| Key | Action | Description |
+|---|---|---|
+| *(none)* | **Single Click** | Standard left click (default action) |
+| `2` | **Double Click** | Double-click on the element |
+| `3` | **Text Selection** | Select/highlight text at the element's location |
+| `4` | **Right Click** | Right-click on the element (opens context menu) |
+| `5` | **Move Mouse** | Move the cursor to the element without clicking |
 
-- **Text Selection**: Press `3`, then type the label text to initiate text selection mode.
+**How to use:** Press the action number first, then type the label characters. For example:
+- `2` → `A` `S` = double-click the element labeled "AS"
+- `4` → `D` = right-click the element labeled "D"
+- `5` → `J` `K` = move the mouse cursor to the element labeled "JK"
 
-- **Right Click**: Press `4`, then type the label text.
+These action keys are configurable in Screen Search settings.
 
-- **Mouse Movement**: Press `5`, then type the label text to move the cursor to the element without clicking.
+---
 
-These key commands provide a versatile approach to interacting with various on-screen elements directly from the keyboard.
+### Navigating and adjusting labels
 
-### Navigating and Adjusting Labels
+While Screen Search is active, you can fine-tune label positions:
 
-While Screen Search is active, users can fine-tune the positioning of labels to better align with undetected or misaligned items:
+- **Arrow keys** (`↑`, `↓`, `←`, `→`) — Adjust the position of labels to better align with undetected or misaligned elements
 
-- **Arrow Keys**: Pressing the arrow keys (`↑`, `↓`, `←`, `→`) will adjust the position of the selected label, allowing precise alignment with the desired on-screen element.
+This is useful when a label doesn't perfectly align with the element you want to interact with.
 
-This functionality ensures that all interactive components are accessible, even if they are not initially detected or perfectly aligned.
+---
 
-### Switching Between Search Engines
+### Switching between search engines
 
-Fluent Search incorporates two primary engines for detecting clickable elements:
+While Screen Search is active, you can switch detection engines on the fly:
 
-1. **Image Recognition**: Analyzes a screenshot to identify interactive components.
+- **Press `Tab`** — Toggles between **Image Recognition** and **In-Window Content** modes
 
-2. **In-Window Content**: Utilizes Windows' screen reader capabilities to detect clickable items within the active window.
+This is helpful when one engine doesn't detect certain elements. For example:
+- Switch to **Image Recognition** for apps with custom-drawn UIs
+- Switch to **In-Window Content** for standard Windows applications with better UI Automation support
 
-By default, Fluent Search operates in **Auto** mode, selecting the most appropriate engine based on context. Users can manually switch between these engines while Screen Search is active:
+---
 
-- **Press `Tab`**: Toggles between Image Recognition and In-Window Content modes, allowing users to choose the engine that best suits their current task.
+### Multi-monitor navigation
 
-This flexibility ensures optimal detection of interactive elements across various applications and interfaces.
+For users with multiple monitors, Screen Search provides seamless cross-screen navigation:
 
-### Managing Multi-Monitor Setups
+| Key | Action |
+|---|---|
+| **Right Shift** | Move Screen Search focus to the monitor on the right |
+| **Left Shift** | Move Screen Search focus to the monitor on the left |
 
-For users with multiple monitors, Screen Search offers functionality to navigate between screens seamlessly:
+When you shift to another monitor, Screen Search reanalyzes that screen and displays new labels. This lets you interact with elements on any connected display without touching the mouse.
 
-- **Right Shift Key**: Pressing the right `Shift` key moves the Screen Search focus to the monitor positioned to the right.
+---
 
-- **Left Shift Key**: Pressing the left `Shift` key moves the focus to the monitor on the left.
+### Taskbar detection
 
-This feature facilitates efficient management of multi-monitor environments, enabling users to control and interact with applications across all screens using keyboard inputs alone.
+When searching the entire screen (not just the focused window), Screen Search separately detects elements in the Windows taskbar. This means you can click taskbar icons, system tray items, and notification area elements using keyboard labels.
 
-By mastering these advanced functionalities, users can fully harness the power of Fluent Search's Screen Search feature, achieving a highly efficient and mouse-free computing experience. 
+---
+
+### Background processing
+
+When **Process in background** is enabled, Fluent Search continuously analyzes your screen so that labels appear almost instantly when you activate Screen Search. This uses more system resources but provides a significantly faster experience.
+
+---
+
+### Tips
+
+- **Start with single click** (the default) to get comfortable with label navigation, then use number keys for advanced actions as needed
+- **Use Tab** to try the other detection engine if elements aren't being found
+- **Multi-monitor switching** happens instantly — just press Shift to jump between screens
+- If you accidentally activate Screen Search, press **`Esc`** to cancel
+- Screen Search works with the Fluent Search search bar — you can type text to filter the visible labels by content on screen
