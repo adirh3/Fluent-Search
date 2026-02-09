@@ -12,8 +12,8 @@ When you activate Screen Search, character labels appear over all clickable and 
 
 | Action | Default Shortcut |
 |---|---|
-| **Screen Search (entire screen)** | `Ctrl + M` |
-| **Screen Search (focused window only)** | *(configurable in Settings → Screen)* |
+| **Screen Search (focused window only)** | `Ctrl + M` |
+| **Screen Search (entire screen)** | *(configurable in Settings → Screen)* |
 
 Upon activation, Fluent Search analyzes the screen and overlays character labels on every detected interactive element.
 
@@ -21,7 +21,7 @@ Upon activation, Fluent Search analyzes the screen and overlays character labels
 
 ### Basic usage
 
-1. **Press the Screen Search hotkey** (default: `Ctrl + M`)
+1. **Press the Screen Search hotkey** (default: `Ctrl + M` for focused window)
 2. **Character labels appear** over clickable elements on your screen
 3. **Type the label characters** to perform an action on that element
 4. The action is performed and Screen Search closes
