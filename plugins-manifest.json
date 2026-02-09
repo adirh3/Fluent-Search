@@ -411,10 +411,10 @@
     "DisplayName": "Outlook Search",
     "Description": "Search and interact with Outlook emails and calendar events directly from the launcher",
     "PublisherName": "adirh3",
-    "Version": "1.0.0.0",
+    "Version": "1.0.0.2",
     "MinimumFluentSearchVersion": null,
     "URL": "https://github.com/adirh3/OutlookSearch.Fluent.Plugin",
-    "DownloadURL": "https://stfluentsearch.blob.core.windows.net/fluent-search-plugins/OutlookSearch.Fluent.Plugin.1.0.0.0.zip",
+    "DownloadURL": "https://stfluentsearch.blob.core.windows.net/fluent-search-plugins/OutlookSearch.Fluent.Plugin.1.0.0.2.zip",
     "IconUrl": null,
     "IconGlyph": "",
     "IconBase64": null
