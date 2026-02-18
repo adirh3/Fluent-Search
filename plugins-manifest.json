@@ -273,8 +273,23 @@
     "PublisherName": "Blast Apps",
     "Version": "1.0.0.0",
     "MinimumFluentSearchVersion": null,
+    "MaximumFluentSearchVersion": "1.0.0.32",
     "URL": "https://github.com/adirh3/Fluent-Search-Tasks/tree/main/Utilities/Open%20Apps%20Link%20Path",
     "DownloadURL": "https://raw.githubusercontent.com/adirh3/Fluent-Search-Tasks/main/Utilities/Open%20Apps%20Link%20Path/Lnk_files_in_App%20(1).yaml",
+    "IconUrl": null,
+    "IconGlyph": "",
+    "IconBase64": null
+  },
+    {
+    "PluginType": "Task",
+    "Name": "Open Apps Link Path",
+    "DisplayName": "Open Apps Link Path",
+    "Description": "Open the folder containing the .lnk file of an app",
+    "PublisherName": "Blast Apps",
+    "Version": "1.1.0.0",
+    "MinimumFluentSearchVersion": "1.0.0.33",
+    "URL": "https://github.com/adirh3/Fluent-Search-Tasks/tree/main/Utilities/Open%20Apps%20Link%20Path",
+    "DownloadURL": "https://raw.githubusercontent.com/adirh3/Fluent-Search-Tasks/main/Utilities/Open%20Apps%20Link%20Path/Lnk_files_in_App%20V2.yaml",
     "IconUrl": null,
     "IconGlyph": "",
     "IconBase64": null
