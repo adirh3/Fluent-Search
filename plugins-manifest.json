@@ -418,5 +418,19 @@
     "IconUrl": null,
     "IconGlyph": "",
     "IconBase64": null
+  },
+  {
+    "PluginType": "Dotnet",
+    "Name": "Open HeidiSQL Profiles",
+    "DisplayName": "Open HeidiSQL Profiles",
+    "Description": "Search and open HeidiSQL database connection profiles.",
+    "PublisherName": "zlyfer",
+    "Version": "1.0.1.0",
+    "MinimumFluentSearchVersion": null,
+    "URL": "https://github.com/zlyfer/OpenHeidiSQLProfiles.Fluent.Plugin",
+    "DownloadURL": "https://github.com/zlyfer/OpenHeidiSQLProfiles.Fluent.Plugin/releases/download/1.0.1/OpenHeidiSQLProfiles.Fluent.Plugin.zip",
+    "IconUrl": null,
+    "IconGlyph": "\uEE94",
+    "IconBase64": null
   }
 ]
